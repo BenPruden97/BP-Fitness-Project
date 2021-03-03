@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+/*--------------------------------------------------------------------- index.html */
+
+/*--------------------------------------------------------------------- Navigation Bar */
+
+.navbar-brand {
+    font-size: 300%;
+    text-transform: uppercase;
+}
+
+div ul {
+    margin-right: 10%;
+}
+
+div a {
+    letter-spacing: 1.5px;
+    margin: 0 15px;
+    font-size: 125%;
+}
