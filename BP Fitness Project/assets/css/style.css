@@ -1,20 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
-/*--------------------------------------------------------------------- index.html */
+/* -------------------- HTML */
 
-/*--------------------------------------------------------------------- Navigation Bar */
-
-.navbar-brand {
-    font-size: 300%;
-    text-transform: uppercase;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-div ul {
-    margin-right: 10%;
+/* ---------------------------------------- Header */
+
+/* -------------------- Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 12.5% 25px 10%;
+    background-color: #333;
 }
 
-div a {
-    letter-spacing: 1.5px;
-    margin: 0 15px;
-    font-size: 125%;
+/* -------------------- Header Logo */
+
+.logo {
+    display: inline-block;
+    font-size: 250%;
+}
+
+.logo:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------- Header Navigation Links */
+
+li, a {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 105%;
+    color: #fafafa;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-links li a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ---------------------------------------- Footer */
+
+/* -------------------- Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    min-height: 150px;
+    margin: 0;
+    text-align: center;
+}
+
+footer div {
+    padding: 20px 5%;
+}
+
+.footer-style {
+    font-family: "Lato", sans-serif;
+    color: #fafafa;
+}
+
+/* -------------------- Company Details Hover */
+
+.phone a:hover {
+    text-decoration: none;
+    color: #42e3f5
+}
+
+.email a:hover {
+    text-decoration: none;
+    color: #42e3f5;
+}
+
+/* -------------------- Social Media Links */
+
+.social-links {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-links i:hover {
+    color: #42e3f5;
+}
+
+.social-links li a i {
+    margin: 4px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+    color: #fafafa;
 }
