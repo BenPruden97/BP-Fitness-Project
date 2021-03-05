@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+/* ---------------------------------------- General CSS */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /* ---------------------------------------- Header */
 
 /* -------------------- Header */
@@ -58,6 +64,182 @@ li, a {
 dl, ol, ul {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* ---------------------------------------- Hero Image Section */
+
+
+/* ---------------------------------------- Icon Section */
+
+.icon-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #42e3f5;
+    margin: auto;
+    text-align: center;
+}
+
+.icon-section div {
+    margin: auto;
+}
+
+.icon-section h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.icon-section i {
+    color: #333;
+    font-size: 75px;
+    padding: 10px;
+}
+
+/* ---------------------------------------- Member Section */
+
+/* -------------------- Member */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150%;
+}
+
+.member-section {
+    height: 500px;
+    text-align: center;
+    background-color: #000;
+}
+
+.member-section h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: #fafafa;
+    padding: 40px 40px 0 40px;   
+}
+
+.flex-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+}
+
+/* -------------------- Personal Training Image */
+
+.img-box1 {
+    position: relative;
+    text-align: center;
+    color: #fafafa;
+    font-size: 100%;
+    height: 250px;
+    width: 375px;
+    background-image: url("../images/personal-training.jpg");
+}
+
+.img-button-pt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 275px 20%;
+}
+
+.img-button-pt button {
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    color: #fafafa;
+    font-size: 90%;
+    background-color: #333;
+}
+
+.img-button-pt button a {
+    text-decoration: none;
+}
+
+.img-button-pt button a:hover {
+    color: #42e3f5;
+}
+
+/* -------------------- Gym Classes Image */
+
+.img-box2 {
+    position: relative;
+    text-align: center;
+    color: #fafafa;
+    font-size: 100%;
+    height: 250px;
+    width: 375px;
+    background-image: url("../images/gym-class.jpg");
+}
+
+.img-button-gc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 275px 12.5%;
+}
+
+.img-button-gc button {
+    height: 40px;
+    width: 325px;
+    padding: 5px 7px;
+    border: none;
+    color: #fafafa;
+    font-size: 90%;
+    background-color: #333;
+}
+
+.img-button-gc button a {
+    text-decoration: none;
+}
+
+.img-button-gc button a:hover {
+    color: #42e3f5;
+}
+
+/* -------------------- Workout & Dietary Plans */
+
+.img-box3 {
+    position: relative;
+    text-align: center;
+    color: #fafafa;
+    font-size: 100%;
+    height: 250px;
+    width: 375px;
+    background-image: url("../images/workout-diet.jpg");
+}
+
+.img-button-wd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 275px 7.5%;
+}
+
+.img-button-wd button {
+    height: 40px;
+    width: 325px;
+    padding: 5px 15px;
+    border: none;
+    color: #fafafa;
+    font-size: 90%;
+    background-color: #333;
+}
+
+.img-button-wd button a {
+    text-decoration: none;
+}
+
+.img-button-wd button a:hover {
+    color: #42e3f5;
 }
 
 /* ---------------------------------------- Footer */
