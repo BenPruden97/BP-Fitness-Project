@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
-/* -------------------- HTML */
+/* ------------------------------------------------------------ HTML */
 
 * {
     box-sizing: border-box;
@@ -8,15 +8,13 @@
     padding: 0;
 }
 
-/* ---------------------------------------- General CSS */
+/* -------------------------------------------------------------------------------- General CSS */
 
 .uppercase {
     text-transform: uppercase;
 }
 
-/* ---------------------------------------- Header */
-
-/* -------------------- Header */
+/* -------------------------------------------------------------------------------- Header */
 
 header {
     display: flex;
@@ -26,7 +24,7 @@ header {
     background-color: #333;
 }
 
-/* -------------------- Header Logo */
+/* ------------------------------------------------------------ Header Logo */
 
 .logo {
     display: inline-block;
@@ -38,7 +36,7 @@ header {
     text-decoration: none;
 }
 
-/* -------------------- Header Navigation Links */
+/* ------------------------------------------------------------ Header Navigation Links */
 
 li, a {
     font-family: "Lato", sans-serif;
@@ -66,10 +64,10 @@ dl, ol, ul {
     margin-bottom: 0;
 }
 
-/* ---------------------------------------- Hero Image Section */
+/* -------------------------------------------------------------------------------- Hero Image Section */
 
 
-/* ---------------------------------------- Icon Section */
+/* -------------------------------------------------------------------------------- Icon Section */
 
 .icon-section {
     display: flex;
@@ -99,9 +97,7 @@ dl, ol, ul {
     padding: 10px;
 }
 
-/* ---------------------------------------- Member Section */
-
-/* -------------------- Member */
+/* -------------------------------------------------------------------------------- Member Section */
 
 .centered {
     position: absolute;
@@ -242,7 +238,56 @@ dl, ol, ul {
     color: #42e3f5;
 }
 
-/* ---------------------------------------- Footer */
+/* -------------------------------------------------------------------------------- Image Gallery */
+
+.image-gallery {
+    display: flex;
+    align-items: center;
+}
+
+.image-gallery img {
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    border: 0.5px solid #000;
+}
+
+
+
+/* -------------------------------------------------------------------------------- Testimonial Section */
+
+.testimonial-section {
+    height: 400px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.testimonial-section h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: #333;
+    padding: 40px 40px 0 40px; 
+}
+
+.flex-testimonial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    color: #333;
+}
+
+.flexbox {
+    display: flexbox;
+    padding: 20px 20px;
+}
+
+.flex-testimonial img {
+    padding: 5px 5px 20px 5px;
+}
+
+/* -------------------------------------------------------------------------------- Footer */
 
 /* -------------------- Footer */
 
