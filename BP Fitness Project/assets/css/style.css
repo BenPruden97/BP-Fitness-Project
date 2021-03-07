@@ -8,6 +8,12 @@
     padding: 0;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* -------------------------------------------------------------------------------- General CSS */
 
 .uppercase {
@@ -66,6 +72,133 @@ dl, ol, ul {
 
 /* -------------------------------------------------------------------------------- Hero Image Section */
 
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0 ,0, 0, 0.5)), url("../images/hero.jpg");
+    height: 860px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text { 
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fafafa;
+}
+
+.hero-text h2 {
+    padding: 0 0 20px 0;
+}
+
+.hero-text h5 {
+    padding: 0 0 20px 0;
+}
+
+.hero-text button {
+    background-color: #0c1f34;
+    border: none;
+    color: #fafafa;
+    height: 65px;
+    width: 200px;
+    padding: 20px;
+}
+
+.hero-text button a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------------- Membership Fees Section */
+
+/* -------------------- Student Membership Offer Image */
+
+.student-membership {
+    font-family: "Lato", sans-serif;
+    height: 400px;
+    width: 50%;
+    background: url("../images/student-membership.jpg") no-repeat center center;
+    background-color: #fafafa;
+}
+
+.student-membership h2 {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.student-membership h4 {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.student-membership h5 {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: #0c1f34;
+    width: 350px;
+    height: 50px;
+}
+
+.student-membership h5 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------- Membership Fees Image */
+
+.membership-prices {
+    font-family: "Lato", sans-serif;
+    height: 400px;
+    width: 50%;
+    background: url("../images/membership-fees.jpg") no-repeat center center;
+    background-color: #fafafa;
+}
+
+.membership-prices h2 {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.membership-prices h4 {
+    text-align: center;
+    color: #fafafa;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.membership-prices h5 {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: #0c1f34;
+    width: 350px;
+    height: 50px;
+}
+
+.membership-prices h5 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
 
 /* -------------------------------------------------------------------------------- Icon Section */
 
@@ -74,7 +207,7 @@ dl, ol, ul {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #42e3f5;
+    background-color: #0c1f34;
     margin: auto;
     text-align: center;
 }
@@ -86,13 +219,13 @@ dl, ol, ul {
 .icon-section h5 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    color: #333;
+    color: #fafafa;
     padding: 10px;
     font-size: 16px;
 }
 
 .icon-section i {
-    color: #333;
+    color: #fafafa;
     font-size: 75px;
     padding: 10px;
 }
@@ -110,7 +243,7 @@ dl, ol, ul {
 .member-section {
     height: 500px;
     text-align: center;
-    background-color: #000;
+    background-color: #333;
 }
 
 .member-section h2 {
@@ -153,7 +286,7 @@ dl, ol, ul {
     border: none;
     color: #fafafa;
     font-size: 90%;
-    background-color: #333;
+    background-color: #0c1f34;
 }
 
 .img-button-pt button a {
@@ -190,7 +323,7 @@ dl, ol, ul {
     border: none;
     color: #fafafa;
     font-size: 90%;
-    background-color: #333;
+    background-color: #0c1f34;
 }
 
 .img-button-gc button a {
@@ -227,7 +360,7 @@ dl, ol, ul {
     border: none;
     color: #fafafa;
     font-size: 90%;
-    background-color: #333;
+    background-color: #0c1f34;
 }
 
 .img-button-wd button a {
