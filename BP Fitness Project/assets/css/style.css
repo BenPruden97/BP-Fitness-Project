@@ -70,6 +70,8 @@ dl, ol, ul {
     margin-bottom: 0;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ index.html CSS */
+
 /* -------------------------------------------------------------------------------- Hero Image Section */
 
 .hero-section {
@@ -373,19 +375,27 @@ dl, ol, ul {
 
 /* -------------------------------------------------------------------------------- Image Gallery */
 
-.image-gallery {
+.image-gallery h2{
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    background-color: #0c1f34;
+    color: #fafafa;
+    padding: 40px 40px 25px 40px;
+    margin: 0;   
+}
+
+.image-section {
     display: flex;
     align-items: center;
 }
 
-.image-gallery img {
+.image-section img {
     width: 10%;
     padding: 0;
     margin: 0;
     border: 0.5px solid #000;
 }
-
-
 
 /* -------------------------------------------------------------------------------- Testimonial Section */
 
@@ -475,4 +485,66 @@ footer div {
     font-size: 30px;
     text-align: center;
     color: #fafafa;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ about bp fitness.html CSS */
+
+.about-us {
+    height: 650px;
+    width: 100%;
+    background-color: #0c1f34;
+}
+
+.about-us {
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    color: #fafafa;
+    text-align: center;
+    padding: 40px;
+}
+
+.content {
+    height: 500px;
+    width: 800px;
+    background-color: #333;
+    margin: 30px auto;
+}
+
+.icon-about {
+    background-color: #42e3f5;
+
+}
+
+.we-offer h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    color: #fafafa;
+    background-color: #0c1f34;
+    padding: 40px;
+    margin: 0;
+}
+
+.strength-machines {
+    height: 250px;
+    width: 50%;
+    background-color: #333;
+}
+
+.weights {
+    height: 250px;
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.cardio-machines {
+    height: 250px;
+    width: 50%;
+    background-color: #fafafa;
+}
+
+.gym-facilities {
+    height: 250px;
+    width: 50%;
+    background-color: #333;
 }
