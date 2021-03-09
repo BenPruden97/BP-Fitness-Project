@@ -34,7 +34,7 @@ header {
 
 .logo {
     display: inline-block;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .logo:hover {
@@ -76,7 +76,7 @@ dl, ol, ul {
 
 .hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0 ,0, 0, 0.5)), url("../images/hero.jpg");
-    height: 860px;
+    height: 880px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -181,8 +181,8 @@ dl, ol, ul {
     text-align: center;
     color: #fafafa;
     margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .membership-prices h5 {
@@ -373,30 +373,6 @@ dl, ol, ul {
     color: #42e3f5;
 }
 
-/* -------------------------------------------------------------------------------- Image Gallery */
-
-.image-gallery h2{
-    font-family: "Lato", sans-serif;
-    font-size: 250%;
-    text-align: center;
-    background-color: #0c1f34;
-    color: #fafafa;
-    padding: 40px 40px 25px 40px;
-    margin: 0;   
-}
-
-.image-section {
-    display: flex;
-    align-items: center;
-}
-
-.image-section img {
-    width: 10%;
-    padding: 0;
-    margin: 0;
-    border: 0.5px solid #000;
-}
-
 /* -------------------------------------------------------------------------------- Testimonial Section */
 
 .testimonial-section {
@@ -489,62 +465,336 @@ footer div {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ about bp fitness.html CSS */
 
+/* -------------------- Why Choose BP Fitness Section */
+
 .about-us {
     height: 650px;
     width: 100%;
     background-color: #0c1f34;
 }
 
-.about-us {
+.about-us h2 {
     font-family: "Lato", sans-serif;
     font-size: 250%;
     color: #fafafa;
     text-align: center;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 
 .content {
     height: 500px;
     width: 800px;
-    background-color: #333;
+    background-color: #fafafa;
     margin: 30px auto;
 }
 
-.icon-about {
-    background-color: #42e3f5;
+/* -------------------------------------------------------------------------------- Why BP Fitness Has To Offer Section */
 
-}
+/* -------------------- Why BP Fitness Has To Offer Title/ Heading */
 
 .we-offer h2 {
     font-family: "Lato", sans-serif;
     font-size: 250%;
     text-align: center;
+    text-transform: uppercase;
     color: #fafafa;
-    background-color: #0c1f34;
-    padding: 40px;
+    background-color: #333;
+    padding: 40px 40px 40px 40px;
     margin: 0;
 }
 
+.offer-flex {
+    display: flex;
+}
+
+/* -------------------- Why BP Fitness Has To Offer Strength Machines Section */
+
 .strength-machines {
+    font-family: "Lato", sans-serif;
     height: 250px;
     width: 50%;
-    background-color: #333;
+    background-color: #0c1f34;
+    padding: 20px;
+    text-align: center;
 }
+
+.strength-heading {
+    color: #fafafa;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.strength-text {
+    color: #fafafa;
+    column-count: 3;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* -------------------- Why BP Fitness Has To Offer Weights Section */
 
 .weights {
+    font-family: "Lato", sans-serif;
     height: 250px;
     width: 50%;
     background-color: #fafafa;
+    padding: 20px;
+    text-align: center;
 }
+
+.weights-heading {
+    color: #333;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.weights-text {
+    color: #333;
+    column-count: 3;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* -------------------- Why BP Fitness Has To Offer Cardio Machines Section */
 
 .cardio-machines {
+    font-family: "Lato", sans-serif;
     height: 250px;
     width: 50%;
     background-color: #fafafa;
+    padding: 20px;
+    text-align: center;
 }
 
+.cardio-heading {
+    color: #333;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.cardio-text {
+    color: #333;
+    column-count: 3;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* -------------------- Why BP Fitness Has To Offer Gym Facilities Section */
+
 .gym-facilities {
+    font-family: "Lato", sans-serif;
     height: 250px;
     width: 50%;
+    background-color: #0c1f34;
+    padding: 20px;
+    text-align: center;
+}
+
+.gym-heading {
+    color: #fafafa;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+}
+
+.gym-text {
+    color: #fafafa;
+    column-count: 3;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* -------------------------------------------------------------------------------- Membership Options Section */
+
+.member-options h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #fafafa;
+    padding: 70px 40px 40px 40px;
+    margin: 0;
+}
+
+.member-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+/* -------------------- Student Offer Section */
+
+.student-offer {
+    height: 300px;
+    width: 50%;
+    background: url("../images/student-membership.jpg") no-repeat center center;
+    margin: 30px;
+}
+
+.student-offer h3 {
+    color: #fafafa;
+    text-align: center;
+    padding: 20px;
+    text-decoration-line: underline;
+}
+
+.student-offer h5 {
+    color: #fafafa;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    text-transform: uppercase;
+}
+
+.student-offer h6 {
+    color: #fafafa;
+    background-color: #0c1f34;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    padding: 20px 55px 20px 55px;
+}
+
+.student-offer h6 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------- Student Fees Section */
+
+.student-fees {
+    height: 300px;
+    width: 50%;
+    background: url("../images/student-membership.jpg") no-repeat center center;
+    margin: 30px;
+}
+
+.student-fees h3 {
+    color: #fafafa;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 20px 20px 0 20px;
+}
+
+.student-fees h5 {
+    color: #fafafa;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px 30px 9.5px 30px;
+}
+
+.student-fees h6 {
+    color: #fafafa;
+    background-color: #0c1f34;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    padding: 20px 55px 20px 55px;
+}
+
+.student-fees h6 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------- Membership Offer Section */
+
+.membership-offer {
+    height: 300px;
+    width: 50%;
+    background: url("../images/membership-fees.jpg") no-repeat center left;
+    margin: 30px;
+}
+
+.membership-offer h3 {
+    color: #fafafa;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 20px;
+}
+
+.membership-offer h5 {
+    color: #fafafa;
+    text-align: center;
+    padding: 10px 30px 22px 30px;
+    text-transform: uppercase;
+}
+
+.membership-offer h6 {
+    color: #fafafa;
+    background-color: #0c1f34;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    padding: 20px 40px 20px 40px;
+}
+
+.membership-offer h6 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* -------------------- Membership Fees Section */
+
+.membership-fees {
+    height: 300px;
+    width: 50%;
+    background: url("../images/membership-fees.jpg") no-repeat center left;
+    margin: 30px;
+}
+
+.membership-fees h3 {
+    color: #fafafa;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 20px 20px 0 20px; 
+}
+
+.membership-fees h5 {
+    color: #fafafa;
+    font-size: 150%;
+    text-align: center;
+    padding: 20px 20px 2px 20px;
+}
+
+.membership-fees h6 {
+    color: #fafafa;
+    background-color: #0c1f34;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    padding: 20px 55px 20px 55px;
+}
+
+.membership-fees h6 a:hover {
+    color: #42e3f5;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------------  Inside BP Fitness */
+
+.image-gallery h2{
+    font-family: "Lato", sans-serif;
+    font-size: 250%;
+    text-align: center;
     background-color: #333;
+    color: #fafafa;
+    padding: 40px 40px 25px 40px;
+    margin: 0;   
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+}
+
+.image-section img {
+    width: 10%;
+    padding: 0;
+    margin: 0;
+    border: 0.5px solid #000;
 }
