@@ -27,8 +27,32 @@
       </nav>
 
     </header>
-    <section>
 
+    <section class="form-section">
+      <form class="contact-form" action="#" method="POST">
+          <h2 class="uppercase">Have an enquiry or question? Get in touch with us below!</h2>
+          <label for="fname">First Name</label>
+          <input class="first-text" type="text" id="fname" name="first_name" required>
+          <label for="lname">Last Name</label>
+          <input class="last-text" type="text" id="lname" name="last_name" required><br>
+          <label for="email">Email Address</label>
+          <input class="email-text" type="email" id="email" name="email_address" required><br>
+          <label for="message">Type Your Message Here</label>
+          <input class="message-text" type="text" id="message" name="message"><br>
+          <label for="reason-for-contacting-us">Reason For Contacting Us</label>
+          <select name ="reason-for-contacting-us" id="reason-for-contacting-us">
+            <option value="membership-details">Membership Details</option>
+            <option value="student-membership-details">Student Membership Details</option>
+            <option value="personal-training-sessions">Personal Training Sessions</option>
+            <option value="gym-classes">Gym Classes</option>
+            <option value="workout-plan">Workout Plan</option>
+            <option value="dietary-plan">Dietary Plan</option>
+            <option value="general-enquiries">General Enquiries</option>
+            <option value="gym-information">Gym Information</option>
+            <option value="other">Other</option><br>
+          </select>
+          <input class="send-message" type="submit" value="Send Message">
+      </form>
     </section>
     <footer>
 
