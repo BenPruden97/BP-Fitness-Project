@@ -9,36 +9,47 @@
     <script src="https://kit.fontawesome.com/e8142a821e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
 
-      <! ---------- Header Logo ---------- !>
+  <header class="container-fluid">
 
-      <a href="index.html" class="logo uppercase">BP Fitness</a>
+    <nav class="nav-bar">
 
-      <! ---------- Header Navigation Links ---------- !>
+      <div class="logo">
+        <a href="index.html" class="uppercase">BP Fitness</a>
+      </div>     
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about bp fitness.html">About BP Fitness</a></li>
-          <li><a href="member benefits.html">Member Benefits</a></li>
-          <li><a href="contact us.html">Contact Us</a></li>
-        </ul>
-      </nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about bp fitness.html">About BP Fitness</a></li>
+        <li><a href="member benefits.html">Member Benefits</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+      </ul>
 
-    </header>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div> 
+
+    </nav>      
+
+</header>
 
     <! -------------------- Member Benefits We Have To Offer -------------------- !>
 
-    <section>
+    <section class="container-fluid">
 
-      <div class="white-strip"></div>
-      
-      <div class="hero-section-member"></div>
+      <div class="row hero-section-member">
 
-      <div class="member-text">
+        <div class="col-md-12">
 
-        <h2 class="uppercase">Enjoy The Member Benefits We have To Offer</h2>
+          <div class="member-text">
+
+          <h2 class="uppercase">Enjoy The Member Benefits We have To Offer</h2>
+
+          </div>
+
+        </div>
 
       </div>
 
@@ -48,53 +59,97 @@
 
     <! -------------------- BP Fitness Personal Trainer's -------------------- !>
     
-    <section class="personal-trainers">
+    <section class="container-fluid">
 
-      <h2>Personal Trainers at BP Fitness</h2>
+      <h2 class="personal-trainer-header">Personal Trainers at BP Fitness</h2>
+
+      <div class="row">
         
-        <div class="personal-flex1">
+        <div class="personal-flex">
 
-          <div class="pt-1">
-            <h3 class="uppercase"><a href="#">Mason Jones</a></h3>
+          <div class="col-lg-6">
+
+            <div class="pt-1">
+              <h3 class="uppercase"><a href="#">Mason Jones</a></h3>
+            </div>
+
           </div>
 
-          <div class="pt-2">
-            <h3 class="uppercase"><a href="#">Rebecca Conway</a></h3>
+          <div class="col-lg-6">
+
+            <div class="pt-2">
+              <h3 class="uppercase"><a href="#">Rebecca Conway</a></h3>
+            </div>
+
           </div>
 
-          <div class="pt-3">
-            <h3 class="uppercase"><a href="#">Jake Ryan</a></h3>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="personal-flex">
+
+          <div class="col-lg-6">
+
+            <div class="pt-3">
+              <h3 class="uppercase"><a href="#">Jake Ryan</a></h3>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="pt-4">
+              <h3 class="uppercase"><a href="#">Louise Stokes</a></h3>
+            </div>
+
           </div>
 
         </div>
 
-        <div class="personal-flex2">
+      </div>
 
-          <div class="pt-4">
-            <h3 class="uppercase"><a href="#">Louise Stokes</a></h3>
+      <div class="row">
+
+        <div class="personal-flex">
+
+          <div class="col-lg-6">
+
+            <div class="pt-5">
+              <h3 class="uppercase"><a href="#">James May</a></h3>
+            </div>
+
           </div>
 
-          <div class="pt-5">
-            <h3 class="uppercase"><a href="#">James May</a></h3>
-          </div>
+          <div class="col-lg-6">
 
-          <div class="pt-6">
-            <h3 class="uppercase"><a href="#">Jessica Newman</a></h3>
+            <div class="pt-6">
+              <h3 class="uppercase"><a href="#">Jessica Newman</a></h3>
+            </div>
+
           </div>
 
         </div>
+
+      </div>
         
     </section>
 
     <! -------------------- BP Fitness Gym Classes -------------------- !>
 
-    <section class="gym-class">
+    <section class="container-fluid">
 
-      <h2 class="uppercase">Weekly Gym Classes</h2>
+      <h2 class="gym-class-header uppercase">Weekly Gym Classes</h2>
 
-    <table>
+      <div class="row gym-class">
 
-      <tr>
+        <div class="col-lg-12">
+
+          <table>
+
+            <tr>
         <th></th>
         <th>Monday</th>
         <th>Tuesday</th>
@@ -103,9 +158,9 @@
         <th>Friday</th>
         <th>Saturday</th>
         <th>Sunday</th>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>9:00 - 10:00am</td>
         <td>H.I.I.T<br>
           Louise Stokes
@@ -128,9 +183,9 @@
         <td>Cardio<br>
           Jessica Newman
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>10:15 - 11:15am</td>
         <td>Bicep Workout<br>
           James May
@@ -153,9 +208,9 @@
         <td>Ab Workout<br>
           Rebecca Conway
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>11:30am - 12:30pm</td>
         <td>H.I.I.T<br>
           Louise Stokes
@@ -178,9 +233,9 @@
         <td>Cardio<br>
           Jessica Newman
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>12:45 - 13:45pm</td>
         <td>Bicep Workout<br>
           James May
@@ -203,9 +258,9 @@
         <td>Ab Workout<br>
           Rebecca Conway
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>14:00 - 15:00pm</td>
         <td>H.I.I.T<br>
           Louise Stokes
@@ -228,9 +283,9 @@
         <td>Cardio<br>
           Jessica Newman
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>15:15 - 16:15pm</td>
         <td>Bicep Workout<br>
           James May
@@ -253,9 +308,9 @@
         <td>Ab Workout<br>
           Rebecca Conway
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>16:15 - 17:15pm</td>
         <td>H.I.I.T<br>
           Louise Stokes
@@ -278,9 +333,9 @@
         <td>Cardio<br>
           Jessica Newman
         </td>
-      </tr>
+            </tr>
 
-      <tr>
+            <tr>
         <td>17:30 - 18:30pm</td>
         <td>Bicep Workout<br>
           James May
@@ -303,77 +358,101 @@
         <td>Ab Workout<br>
           Rebecca Conway
         </td>
-      </tr>    
+            </tr>    
 
-    </table>
+          </table>
+
+        </div>
+
+      </div>
 
     </section>
 
     <! -------------------- Workout & Dietary Plans -------------------- !>
 
-    <section class="workout-dietary">
+    <section class="container-fluid">
 
-      <h2 class="uppercase">BP Fitness Workout & Dietary Plans</h2>
+      <h2 class="workout-dietary-header uppercase">BP Fitness Workout & Dietary Plans</h2>
 
-      <div class="workout-dietary-flex">
+      <div class="row workout-dietary-flex">
 
-        <div class="workout-plans">
+          <div class="col-md-6">
 
-          <h3 class="uppercase">Build and Customize The Perfect workout for yourself to see the best results!</h3>
+            <div class="workout-plans">
 
-          <h5><a href="#">Build Your Workout Plan</a></h5>
+              <h3 class="uppercase">Build and Customize The Perfect workout for yourself to see the best results!</h3>
 
-        </div>
+              <h5><a href="#">Build Your Workout Plan</a></h5>
 
-        <div class="dietary-plans">
+            </div>
 
-          <h3 class="uppercase">Build and Customize The  Perfect Dietary Plan for your body to see the best results!</h3>
+          </div>
 
-          <h5><a href="#">Build Your Dietary Plan</a></h5>
+          <div class="col-md-6">
 
-        </div>
+            <div class="dietary-plans">
+
+              <h3 class="uppercase">Build and Customize The  Perfect Dietary Plan for your body to see the best results!</h3>
+
+              <h5><a href="#">Build Your Dietary Plan</a></h5>
+
+            </div>
+
+          </div>
 
       </div>
 
     </section>
 
-    <footer>
+    <footer class="container-fluid">
 
       <! -------------------- Footer Company Details -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Company Details:</h5>
-        <h6>Phone Number: <span class="phone"><a href="tel:07803 123 456">07803 123 456</a></span></h6>
-        <h6>Email Address: <span class="email"><a href="mailto:contact.bp.fitness@yahoo.com">contact.bpfitness@yahoo.com</a></span></h6>
-      </div>
+      <div class="row">
+
+        <div class="col-md-4 footer-style">
+
+          <h5>Company Details:</h5>
+          <h6>Phone Number: <span class="phone"><a href="tel:07803 123 456">07803 123 456</a></span></h6>
+          <h6>Email Address: <span class="email"><a href="mailto:contact.bp.fitness@yahoo.com">contact.bpfitness@yahoo.com</a></span></h6>
+
+        </div>
 
       <! -------------------- Footer Company Address -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Company Address:</h5>
-        <h6>9 Fitness Street,</h6>
-        <h6>London, England, EN9 9EN</h6>
-      </div>
+        <div class="col-md-4 footer-style">
+
+          <h5>Company Address:</h5>
+          <h6>9 Fitness Street,</h6>
+          <h6>London, England, EN9 9EN</h6>
+
+        </div>
 
       <! -------------------- Footer Social Links -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Social Links:</h5>
-        <ul class="social-links">
-          <li><a target="_blank" href="https://www.facebook.com/">
-            <i class="fab fa-facebook-square"></i>
-          </a></li>
-          <li><a target="_blank" href="https://twitter.com/">
-            <i class="fab fa-twitter-square"></i>
-          </a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/">
-            <i class="fab fa-linkedin"></i>
-          </a></li>
-          <li><a target="_blank" href="https://www.instagram.com/">
-            <i class="fab fa-instagram-square"></i>
-          </a></li>
-        </ul>
-      </div>
+        <div class="col-md-4 footer-style">
+
+          <h5>Social Links:</h5>
+
+          <ul class="social-links">
+            <li><a target="_blank" href="https://www.facebook.com/">
+              <i class="fab fa-facebook-square"></i>
+            </a></li>
+            <li><a target="_blank" href="https://twitter.com/">
+              <i class="fab fa-twitter-square"></i>
+            </a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+            <li><a target="_blank" href="https://www.instagram.com/">
+              <i class="fab fa-instagram-square"></i>
+            </a></li>
+          </ul>
+
+          </div>
+
+      </div>    
+
     </footer>
     
 </body>

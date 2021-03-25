@@ -12,223 +12,285 @@
 
     <! -------------------- Header -------------------- !>
 
-    <header>
+    <header class="container-fluid">
 
-      <! ---------- Header Logo ---------- !>
+          <nav class="nav-bar">
 
-      <a href="index.html" class="logo uppercase">BP Fitness</a>
+            <div class="logo">
+              <a href="index.html" class="uppercase">BP Fitness</a>
+            </div>     
 
-      <! ---------- Header Navigation Links ---------- !>
+            <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about bp fitness.html">About BP Fitness</a></li>
+              <li><a href="member benefits.html">Member Benefits</a></li>
+              <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about bp fitness.html">About BP Fitness</a></li>
-          <li><a href="member benefits.html">Member Benefits</a></li>
-          <li><a href="contact us.html">Contact Us</a></li>
-        </ul>
-      </nav>
+            <input type="checkbox" id="dropdown">
+            <label for="dropdown" class="bars">
+              <i class="fas fa-bars"></i>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about bp fitness.html">About BP Fitness</a></li>
+                <li><a href="member benefits.html">Member Benefits</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+              </ul>
+            </label>
+              
+          </nav>      
 
     </header>
 
     <! -------------------- Hero Image -------------------- !>
 
-    <section>
-      <div class="hero-section"></div>
-      <div class="hero-text">
-        <h2 class="uppercase">Become a member of the BP Fitness family and find the right membership for you!</h2>
+    <section class="container-fluid hero-section">
 
-        <h5>We have a wide range of high end gym equipment as well as personal trainers, gym classes and workout & dietary plans to help your reach your goal</h5>
+        <div class="row">
 
-        <h5>We hope to see you at BP Fitness soon!</h5>
+          <div class="col-md-12 hero-text">
 
-        <button><a href="#">Join BP Fitness</a></button>
+            <h2 class="uppercase">Become a member of the BP Fitness family and find the right membership for you!</h2>
+
+            <h5>We have a wide range of high end gym equipment as well as personal trainers, gym classes and workout & dietary plans to help your reach your goal</h5>
+
+            <h5>We hope to see you at BP Fitness soon!</h5>
+
+            <button><a href="#">Join BP Fitness</a></button>
+
+          </div>
+
       </div>
       
     </section>
 
     <! -------------------- Membership Fees -------------------- !>
 
-    <main class="flex">
-
       <! -------------------- Student Membership Fees -------------------- !>
+      <section class="container-fluid">
 
-      <section class="student-membership">
+        <h2 class="membership-fees-header">Membership Offers!</h2>
 
-        <h2>Student Membership Offer</h2>
-        <h4>View our student offer and become a student member today!</h4>
-        <h5><a href="#">View Student Membership Offer</a></h5>
+        <div class="row member-fees">
 
-      </section>
+          <div class="col-md-6">
 
-      <! -------------------- Membership Fees -------------------- !>
+            <div class="student-membership">
 
-      <section class="membership-prices">
+            <h2>Student Membership Offer</h2>
+            <h4>View our current student offer for all students in the UK and become a student member today for FREE!</h4>
+            <h5><a href="#">View Student Membership Offer</a></h5>
 
-        <h2>Membership Offer</h2>
-        <h4>View our current membership offer as well as our range of membership prices and become a member today!</h4>
-        <h5><a href="#">View Membership Fees</a></h5>
+             </div>
 
-      </section>
-   
-    </main>
+          </div>  
+
+          <div class="col-md-6">
+
+            <div class="membership-prices">
+
+            <h2>Membership Offer</h2>
+            <h4>View our current membership offer as well as our range of membership prices and become a member today!</h4>
+            <h5><a href="#">View Membership Fees</a></h5>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>    
 
     <! -------------------- Member Benefits Section -------------------- !>
 
-    <section class="member-section">
+    <section class="container-fluid">
 
-      <! ---------- Member Benefits Header ---------- !>  
-      
-        <h2 class="uppercase">Member Benefits</h2>
+      <h2 class="member-section-header uppercase">Member Benefits</h2>
 
-        <! ---------- Member Benefit Images ---------- !>  
+      <div class="row member-section">
 
-        <div class="flex-img">
-
-          <! ---------- Personal Trainer Image & Button ---------- !> 
-
+        <div class="col-lg-4">
+ 
           <div class="img-box1">
-            <div class="centered">Personal Training Sessions</div>
+
+            <div class="img-pt-text">Personal Training Sessions</div>
+
             <div class="img-button-pt">
+
             <button><a href="about bp fitness.html">Find Your Personal Trainer</a></button>
-            </div>
+
           </div>
+          </div>
+        </div>  
 
         <! ---------- Gym Classes Image & Button ---------- !>   
 
-        <div class="img-box2">
-          <div class="centered">Gym Classes</div>
-          <div class="img-button-gc">
-          <button><a href="about bp fitness.html">View our Wide Range of Gym Classes</a></button>
+        <div class="col-lg-4">
+
+          <div class="img-box2">
+
+            <div class="img-gc-text">Gym Classes</div>
+
+            <div class="img-button-gc">
+
+            <button><a href="about bp fitness.html">View our Wide Range of Gym Classes</a></button>
+
+            </div>
           </div>
         </div>
 
         <! ---------- Workout & Dietary Image & Button ---------- !> 
 
-        <div class="img-box3">
-          <div class="centered">Workout & Dietary Plans</div>
-          <div class="img-button-wd">
-          <button><a href="about bp fitness.html">Find Your Perfect Workout or Dietary Plan</a></button>
+        <div class="col-lg-4">
+
+          <div class="img-box3">
+
+            <div class="img-wd-text">Workout & Dietary Plans</div>
+
+            <div class="img-button-wd">
+
+            <button><a href="about bp fitness.html">Find Your Perfect Workout or Dietary Plan</a></button>
+
+            </div>
+
           </div>
+
         </div>
 
       </div>
 
     </section>
 
-    <! --------------------Icon Section -------------------- !>
+    <! -------------------- Icon Section -------------------- !>
 
-    <section class="icon-section uppercase">
-      
+    <section class="container-fluid">
+
+      <div class="row icon-section">
+
+        <div class="col-md-12 icon-section uppercase">
       <! ---------- Open 24/7 Icon ---------- !>
-      <div>
-      <span>
-        <i class="fas fa-clock"></i>
-      </span>
-      <h5>Open 24/7, 365 Days a Year</h5>
-      </div>
+          <div>
+          <span>
+            <i class="fas fa-clock"></i>
+          </span>
+          <h5>Open 24/7, 365 Days a Year</h5>
+          </div>
 
       <! ---------- High End Equipment Icon ---------- !>
 
-      <div>
-      <span>
-        <i class="fas fa-dumbbell"></i>
-      </span>
-      <h5>High End Gym Equipment</h5>
-      </div>
+          <div>
+          <span>
+            <i class="fas fa-dumbbell"></i>
+          </span>
+          <h5>High End Gym Equipment</h5>
+         </div>
 
       <! ---------- Safe and Clean Icon ---------- !>
+
+          <div>
+          <span>
+            <i class="fas fa-soap"></i>
+          </span>
+          <h5>Safe and Clean Environment</h5>
+          </div>
       
-      <div>
-      <span>
-        <i class="fas fa-soap"></i>
-      </span>
-      <h5>Safe and Clean Environment</h5>
+        </div>
+
       </div>
 
     </section>
 
-    <! -------------------- Member Testimonials Section -------------------- !>
+    <! -------------------- Testimonial Section -------------------- !>
 
-    <section class="testimonial-section">
+    <section class="container-fluid ">
 
-      <! -------------------- Member Testimonials Header -------------------- !>
+      <h2 class="testimonial-header uppercase">Member Testimonials</h2>
+      
+      <div class="row testimonial-section">
 
-      <h2 class="uppercase">Member Testimonials</h2>
+        <div class="col-md-4">
 
-      <div class="flex-testimonial">
+            <img src="./assets/images/Joseph-pic.jpg" alt="headshot of man">
+            <h5>Jospeh Miller</h5>
+            <h6>BP Fitness is well equipment with the most up to date gym equipment 
+              with great facilities and a very clean and safe environment to workout in.</h6>
 
-        <! -------------------- Joseph Testimonial -------------------- !> 
-
-        <div class="flexbox">
-          <img src="./assets/images/Joseph-pic.jpg" alt="headshot of man">
-          <h5>Jospeh Miller</h5>
-          <h6>BP Fitness is well equipment with the most up to date gym equipment 
-            with great facilities and a very clean and safe environment to workout in.</h6>
         </div>
 
+        <div class="col-md-4">
 
-        <! -------------------- Sarah Testimonial -------------------- !> 
-
-        <div class="flexbox">
           <img src="./assets/images/sarah-pic.jpg" alt="headshot of white woman">
           <h5>Sarah Michaels</h5>
           <h6>I was looking for a local gym with great membership prices 
             and that is how I found BP Fitness. The staff are always 
             very polite and very helpful.</h6>
+
         </div>
 
-        <! -------------------- Naomi Testimonial -------------------- !> 
+        <div class="col-md-4">
 
-        <div class="flexbox">
           <img src="./assets/images/naomi-pic.jpg" alt="headshot of black woman">
           <h5>Naomi Scott</h5>
           <h6>The gym equipment and gym facilites provided are always nice and clean.
             Overall a great gym with very competitive membership prices.            
           </h6>
+
         </div>
+
       </div>
     </section>
 
     <! -------------------- Footer -------------------- !>
     
-    <footer>
+    <footer class="container-fluid">
 
       <! -------------------- Footer Company Details -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Company Details:</h5>
-        <h6>Phone Number: <span class="phone"><a href="tel:07803 123 456">07803 123 456</a></span></h6>
-        <h6>Email Address: <span class="email"><a href="mailto:contact.bp.fitness@yahoo.com">contact.bpfitness@yahoo.com</a></span></h6>
-      </div>
+      <div class="row">
+
+        <div class="col-md-4 footer-style">
+
+          <h5>Company Details:</h5>
+          <h6>Phone Number: <span class="phone"><a href="tel:07803 123 456">07803 123 456</a></span></h6>
+          <h6>Email Address: <span class="email"><a href="mailto:contact.bp.fitness@yahoo.com">contact.bpfitness@yahoo.com</a></span></h6>
+
+        </div>
 
       <! -------------------- Footer Company Address -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Company Address:</h5>
-        <h6>9 Fitness Street,</h6>
-        <h6>London, England, EN9 9EN</h6>
-      </div>
+        <div class="col-md-4 footer-style">
+
+          <h5>Company Address:</h5>
+          <h6>9 Fitness Street,</h6>
+          <h6>London, England, EN9 9EN</h6>
+
+        </div>
 
       <! -------------------- Footer Social Links -------------------- !> 
 
-      <div class="footer-style">
-        <h5>Social Links:</h5>
-        <ul class="social-links">
-          <li><a target="_blank" href="https://www.facebook.com/">
-            <i class="fab fa-facebook-square"></i>
-          </a></li>
-          <li><a target="_blank" href="https://twitter.com/">
-            <i class="fab fa-twitter-square"></i>
-          </a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/">
-            <i class="fab fa-linkedin"></i>
-          </a></li>
-          <li><a target="_blank" href="https://www.instagram.com/">
-            <i class="fab fa-instagram-square"></i>
-          </a></li>
-        </ul>
-      </div>
+        <div class="col-md-4 footer-style">
+
+          <h5>Social Links:</h5>
+
+          <ul class="social-links">
+            <li><a target="_blank" href="https://www.facebook.com/">
+              <i class="fab fa-facebook-square"></i>
+            </a></li>
+            <li><a target="_blank" href="https://twitter.com/">
+              <i class="fab fa-twitter-square"></i>
+            </a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin"></i>
+            </a></li>
+            <li><a target="_blank" href="https://www.instagram.com/">
+              <i class="fab fa-instagram-square"></i>
+            </a></li>
+          </ul>
+
+          </div>
+
+      </div>    
+
     </footer>
     
 </body>
