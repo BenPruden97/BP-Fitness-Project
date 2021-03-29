@@ -765,7 +765,7 @@ footer div {
 
 .we-offer-header {
     font-family: "Lato", sans-serif;
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     text-transform: uppercase;
     color: #fafafa;
@@ -799,18 +799,18 @@ footer div {
     background-color: #0c1f34;
     text-align: center;
     margin-left: auto;
+    margin: 10px auto;
 }
 
 .strength-heading {
     color: #fafafa;
     text-decoration-line: underline;
-    margin-bottom: 10px;
 }
 
 .strength-text {
     color: #fafafa;
-    column-count: 4;
-    padding: 40px;
+    column-count: 2;
+    margin-top: 30px;
 }
 
 .strength-text h6 {
@@ -823,8 +823,8 @@ footer div {
     font-family: "Lato", sans-serif;
     height: 250px;
     width: 100%;
+    padding: 20px;
     background-color: #0c1f34;
-    padding: 20px 20px 0 20px;
     text-align: center;
     margin-right: auto;
 }
@@ -837,11 +837,13 @@ footer div {
 .weights-text {
     color: #fafafa;
     column-count: 2;
-    padding: 40px;
+    margin-top: 50px;
 }
 
 .weights-text h6 {
-    font-size: 15px;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Cardio Machines Section */
@@ -850,26 +852,28 @@ footer div {
     font-family: "Lato", sans-serif;
     height: 250px;
     width: 100%;
-    background-color: #0c1f34;
     padding: 20px;
+    background-color: #0c1f34;
     text-align: center;
     margin-left: auto;
+    margin: 10px auto;
 }
 
 .cardio-heading {
     color: #fafafa;
     text-decoration-line: underline;
-    margin-bottom: 15px;
 }
 
 .cardio-text {
     color: #fafafa;
-    column-count: 4;
-    padding: 30px;
+    column-count: 2;
+    margin-top: 30px;
 }
 
 .cardio-text h6 {
-    font-size: 15px;
+    font-size: 12px;
+    top: 50%;
+    left: 50%;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Gym Facilities Section */
@@ -878,23 +882,22 @@ footer div {
     font-family: "Lato", sans-serif;
     height: 250px;
     width: 100%;
-    background-color: #0c1f34;
     padding: 20px;
+    background-color: #0c1f34;
     text-align: center;
     margin-right: auto;
+    margin: 10px auto;
 }
 
 .gym-heading {
     color: #fafafa;
     text-decoration-line: underline;
-    margin-bottom: 10px;
 }
 
 .gym-text {
     color: #fafafa;
-    column-count: 4;
-    margin-top: 40px;
-    margin-left: 10px;
+    column-count: 2;
+    margin-top: 30px;
 }
 
 .gym-text h6 {
@@ -903,7 +906,7 @@ footer div {
 
 /* -------------------- Inside BP Fitness Section */
 
-.inside-bp-header {
+.bp-header {
     font-family: "Lato", sans-serif;
     font-size: 250%;
     text-align: center;
@@ -928,18 +931,20 @@ footer div {
 
 .find-us {
     display: flex;
+    justify-content: space-around;
     font-family: "Lato", sans-serif;
+    margin-bottom: 30px;
 }
 
 /* -------------------- Where You Can Find Us/ Memeber Benefit Section */
 
 .benefits {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color: #0c1f34;
 }
 
-.benefits h2 {
+.benefits-header {
     color: #fafafa;
     text-align: center;
     padding: 40px 20px 22.5px 20px;
@@ -947,7 +952,7 @@ footer div {
 
 .benefits-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #0c1f34;
 }
@@ -966,6 +971,10 @@ footer div {
     font-size: 20px;
     text-align: center;
     margin-top: 200px;
+}
+
+.benefits-flex .pt h3 a {
+    color: #fafafa;
 }
 
 .benefits-flex .pt h3 a:hover {
@@ -989,6 +998,10 @@ footer div {
     margin-top: 200px;
 }
 
+.benefits-flex .gc h3 a {
+    color: #fafafa;
+}
+
 .benefits-flex .gc h3 a:hover {
     color: #42e3f5;
     text-decoration: none;
@@ -1010,6 +1023,10 @@ footer div {
     margin-top: 200px;
 }
 
+.benefits-flex .wd h3 a {
+    color: #fafafa;
+}
+
 .benefits-flex .wd h3 a:hover {
     color: #42e3f5;
     text-decoration: none;
@@ -1019,19 +1036,15 @@ footer div {
 /* -------------------- Where You Can Find Us/ Map Section */
 
 .map {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color: #0c1f34;
 }
 
-.map h2 {
+.map-header {
     color: #fafafa;
     text-align: center;
-    padding: 40px 40px 20px 40px;
-}
-
-.map iframe {
-    margin: 5px
+    padding: 40px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ Member Benefits.html CSS */
@@ -1064,7 +1077,7 @@ footer div {
 
 .member-text h2 {
     font-family: "Lato", sans-serif;
-    font-size: 32px;
+    font-size: 35px;
     color: #fafafa;
     background-color: #0c1f34;
     text-align: center;
@@ -1297,11 +1310,12 @@ footer div {
 .gym-class table, th, td {
     font-family: "Lato", sans-serif;
     text-align: center;
+    font-size: 95%;
     color: #333;
     border: 2px solid  #333;
     border-collapse: collapse;
-    padding: 20px;
-    margin: 50px auto;
+    padding: 10px;
+    margin: 20px auto;
   }
 
 /* -------------------------------------------------------------------------------- Workout & Dietary Plans Section */
@@ -1422,11 +1436,11 @@ footer div {
     color: #fafafa;
     max-width: 700px;
     position: absolute;
-    margin-top: 90px;
+    margin-top: 50px;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px 0 20px 0;
+    padding: 20px 40px 20px 40px;
 }
 
 .contact-form h2{
@@ -1445,6 +1459,7 @@ footer div {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 8px;
+    padding-left: 5px;
 }
 
 .first-text:hover {
@@ -1462,6 +1477,7 @@ footer div {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 8px;
+    padding-left: 5px;
 }
 
 .last-text:hover {
@@ -1479,6 +1495,7 @@ footer div {
     margin: 5px 0 10px 0;
     border: 1px solid #fafafa;
     border-radius: 8px;
+    padding-left: 5px;
 }
 
 .email-text:hover {
@@ -1496,7 +1513,7 @@ footer div {
     margin: 5px 0 5px 0;
     border: 1px solid #fafafa;
     border-radius: 8px;
-    vertical-align: top;
+    padding-left: 5px;
 }
 
 .message-text:hover {
@@ -1507,11 +1524,21 @@ footer div {
 
 /* -------------------- Drop Down Options */
 
+.select-text {
+    margin-top: 20px;
+}
+
+#reason-for-contacting-us {
+    margin-left: 0;
+    width: 225px;
+}
+
 select {
     background-color: #fafafa;
     color: #333;
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
     padding: 2px;
+    align-items: center;
 }
 
 /* -------------------- Send Message Button */
@@ -1532,92 +1559,9 @@ select {
     color: #fafafa;
 }
 
-@media screen and (max-width: 1200px) {
 
-    /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
 
-    .we-offer {
-        background-color: #fafafa;
-        height: 275px;
-    }
-
-    .strength-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 100%;
-        background-color: #0c1f34;
-        text-align: center;
-        margin-left: auto;
-    }
-
-    .strength-text {
-        padding: 30px;
-    }
-
-    .strength-text h6 {
-        font-size: 12px;
-    }
-
-    .weights {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 100%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin-right: auto;
-    }
-
-    .weights-heading {
-        margin-bottom: 30px;
-    }
-
-    .weights-text {
-        padding: 20px;
-    }
-
-    .weights-text h6 {
-        font-size: 12px;
-    }
-
-    .cardio-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 100%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin-left: auto;
-    }
-
-    .cardio-heading {
-        margin-bottom: 30px;
-    }
-
-    .cardio-text {
-        padding: 20px;
-    }
-    
-    .cardio-text h6 {
-        font-size: 12px;
-    }
-    .gym-facilities {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 100%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin-right: auto;
-    }
-
-    .gym-text h6 {
-        font-size: 12px;
-    }
-
-}
-
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1190px) {
     
     .member-text {
         width: 816px;
@@ -1960,6 +1904,162 @@ select {
         padding: 20px;
     }
 
+    /* -------------------- Personal Trainers Section On Member Benefits Page */
+
+    .personal-trainer-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fafafa;
+        background-color: #0c1f34;
+        padding: 40px 40px 40px 40px;
+    }
+    
+    .personal-flex {
+        height: 350px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;  
+        background-color: #fafafa;
+        margin: auto;
+    }
+    
+    /* -------------------- Personal Trainer 1 */
+    
+    .pt-1 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt1.jpg") no-repeat center center;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px; 
+    }
+    
+    .pt-1 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 246px;
+    }
+    
+    /* -------------------- Personal Trainer 2 */
+    
+    .pt-2 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt2.jpg") no-repeat center center;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .pt-2 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 242px;
+    }
+    
+    /* -------------------- Personal Trainer 3 */
+    
+    .pt-3 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt3.jpg") no-repeat center left;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px; 
+    }
+    
+    .pt-3 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 234px;
+    }
+    
+    /* -------------------- Personal Trainer 4 */
+    
+    .pt-4 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt4.jpg") no-repeat center center;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .pt-4 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 226px;
+    }
+    
+    /* -------------------- Personal Trainer 5 */
+    
+    .pt-5 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt5.jpg") no-repeat center center;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px; 
+    }
+    
+    .pt-5 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 202px;
+    }
+
+    /* -------------------- Personal Trainer 6 */
+    
+    .pt-6 {
+        height: 300px;
+        width: 300px;
+        background: url("../images/pt6.jpg") no-repeat center center;
+        position: relative;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .pt-6 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 300px;
+        padding-top: 10px;
+        margin-top: 250px;
+        position: absolute;
+    }
+
     /* -------------------- Gym Classes Section */
 
     .gym-class-header {
@@ -1975,11 +2075,18 @@ select {
     .gym-class table, th, td {
         font-family: "Lato", sans-serif;
         text-align: center;
+        font-size: 90%;
         color: #333;
         border: 1px solid  #333;
         border-collapse: collapse;
-        padding: 1px;
+        padding: 5px;
         margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .removal {
+        display: none;
     }
 
     /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
@@ -1992,12 +2099,12 @@ select {
 
     .we-offer {
         background-color: #fafafa;
-        height: 450px;
+        height: 500px;
     }
 
     .strength-machines {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         padding: 20px;
         background-color: #0c1f34;
@@ -2012,7 +2119,7 @@ select {
 
     .weights {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
@@ -2026,12 +2133,13 @@ select {
 
     .cardio-machines {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
         text-align: center;
         margin: 10px auto;
+        margin-top: 60px;
     }
 
     .cardio-heading {
@@ -2044,18 +2152,64 @@ select {
 
     .gym-facilities {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
         text-align: center;
         margin: 10px auto;
-        margin-bottom: 30px;
     }
     
     .gym-facilities h6 {
         font-size: 12px;
     }
+
+    /* -------------------- Inside BP Fitness section on About BP Fitness Page */
+
+    .bp-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        background-color: #333;
+        color: #fafafa;
+        padding: 40px;
+        margin: 0;
+        margin-top: 100px;
+    }
+
+    .image-section {
+        display: flex;
+    }
+
+    .image-section img {
+        width: 10%;
+        padding: 0;
+        border: 0.5px solid #000;
+    }
+
+    /* -------------------- Memeber Benefits & You Can Find Us Here Section on About BP Fitness Page */
+
+    .benefits {
+        height: 600px;
+        width: 100%;
+        background-color: #0c1f34;
+        margin-bottom: 30px;
+    }
+
+    .benefits-header {
+        font-size: 200%;
+        color: #fafafa;
+        text-align: center;
+        padding: 40px 20px 22.5px 20px;
+    }
+
+    .map-header {
+        font-size: 200%;
+        color: #fafafa;
+        text-align: center;
+        padding: 40px;
+    }
+
     
     /* -------------------- Workout Plans Section */
 
@@ -2093,8 +2247,6 @@ select {
     }
 
     /* ------------------------------------------------------------------------------------------------------------------------ Footer Section */
-
-
 }
     
 
@@ -2336,12 +2488,12 @@ select {
 
     .we-offer {
         background-color: #fafafa;
-        height: 450px;
+        height: 500px;
     }
 
     .strength-machines {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         padding: 20px;
         background-color: #0c1f34;
@@ -2350,13 +2502,9 @@ select {
         margin-top: 20px;
     }
 
-    .strength-machines h6 {
-        font-size: 9px;
-    }
-
     .weights {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
@@ -2366,27 +2514,23 @@ select {
 
     .cardio-machines {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
         text-align: center;
         margin: 10px auto;
+        margin-top: 60px;
     }
 
     .gym-facilities {
         font-family: "Lato", sans-serif;
-        height: 200px;
+        height: 250px;
         width: 75%;
         background-color: #0c1f34;
         padding: 20px;
         text-align: center;
         margin: 10px auto;
-        margin-bottom: 30px;
-    }
-
-    .gym-facilities h6 {
-        font-size: 9px;
     }
 
     /* -------------------- Member Testimonial Section on Home Page/ About BP Fitness Page */
@@ -2436,6 +2580,171 @@ select {
         width: 10%;
         padding: 0;
         border: 0.5px solid #000;
+    }
+
+    /* -------------------- Personal Trainers Section on Member Benefits Page */
+    
+    .personal-trainer-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fafafa;
+        background-color: #0c1f34;
+        padding: 40px 40px 40px 40px;
+    }
+    
+    .personal-flex {
+        height: 640px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pt-1 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt1.jpg") no-repeat center center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+    .pt-2 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt2.jpg") no-repeat center center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pt-3 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt3.jpg") no-repeat center left;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+    .pt-4 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt4.jpg") no-repeat center center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .pt-5 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt5.jpg") no-repeat center center;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+    }
+    .pt-6 {
+        height: 300px;
+        width: 400px;
+        background: url("../images/pt6.jpg") no-repeat center center;
+        position: relative;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pt-1 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 246px;
+    }
+
+    .pt-2 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 242px;
+    }
+
+    .pt-3 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 234px;
+    }
+
+    .pt-4 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 226px;
+    }
+
+    .pt-5 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 202px;
+    }
+
+    .pt-6 h3 {
+        color: #fafafa;
+        font-size: 20px;
+        text-align: center;
+        background-color: #0c1f34;
+        height: 50px;
+        width: 400px;
+        padding-top: 10px;
+        margin-top: 250px;
+        position: absolute;
+    }
+
+    /* -------------------- Gym Classes Section on Member Benefits Page */
+
+    .gym-class-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        color: #fafafa;
+        background-color: #0c1f34;
+        padding: 20px;
+        margin-top: 10px;
+    }
+    
+    .gym-class table, th, td {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        font-size: 80%;
+        color: #333;
+        border: 1px solid  #333;
+        border-collapse: collapse;
+        padding: 5px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .removal {
+        display: none;
     }
     
 }
