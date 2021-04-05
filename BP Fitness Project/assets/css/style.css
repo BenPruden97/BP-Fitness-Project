@@ -8,6 +8,11 @@
     padding: 0;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* -------------------------------------------------------------------------------- General CSS */
 
 .uppercase {
@@ -23,15 +28,19 @@ header {
 
 /* ------------------------------------------------------------ Header Logo */
 
+/* ------------------------------------------------------------ Header Background */
+
 .bg-dark {
     background-color: #333!important;
 }
 
-.navbar-dark .navbar-text {
+/* ------------------------------------------------------------ Header BP Fitness Logo Text  */
+
+.navbar-dark .navbar-brand {
     font-family: "Lato", sans-serif;
     color: #fafafa;
+    font-size: 175%;
     padding: 20px;
-    margin-left: auto;
 }
 
 .navbar-dark .navbar-text:hover {
@@ -39,10 +48,13 @@ header {
     text-decoration: none;
 }
 
+/* ------------------------------------------------------------ Header Nav Links  */
+
 .navbar-dark .navbar-nav .nav-link {
     font-family: "Lato", sans-serif;
     color: #fafafa;
     padding: 20px;
+    font-size: 90%;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -50,38 +62,20 @@ header {
     color: #42e3f5;
 }
 
+/* ------------------------------------------------------------ Header Burger Menu Icon  */
+
 .navbar-dark .navbar-toggler-icon {
     color: #fafafa;
-}
-
-.nav-item {
-    color: #fafafa;
-    justify-content: space-around;
-    align-items: center;
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.logo {
-    color: #fafafa;    
-    font-size: 150%;
 }
 
 .navbar-dark .navbar-toggler {
     border: none;
 }
 
-.nav-flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.navbar-collapse {
+    flex-grow: 0;
+    margin-right: 20px;
 }
-
-
-
-
-
-
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ index.html CSS */
 
