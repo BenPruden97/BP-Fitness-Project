@@ -194,4 +194,9 @@ I used git as a version-control system tracker for my project.
 
 I used GitPod as my Development Hosting Platform for my project
 
+# Testing the functionality of my website
+
+While building my website I found Chrome Developer Tools the best tool throughtout my project to help view my website as well as to find any issues within my coding and solve any problems that arose. It was also great for testing the responsiveness of my website for many devices such as phone, tablet and laptop screen sizes.
+
+# Testing the Compatability of my website
 
