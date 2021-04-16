@@ -8,9 +8,14 @@
     padding: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 /* -------------------------------------------------------------------------------- General CSS */
@@ -2554,10 +2559,11 @@ select {
         background-color: #fafafa;
         padding: 40px;
         margin: 0;
+        margin-top: 80px;
     }
 
     .testimonial-section {
-        height: 400px;
+        height: 425px;
         background-color: #fafafa;
     }
     
@@ -2611,23 +2617,15 @@ select {
     /* -------------------- Inside BP Fitness Section */
 
     .inside-bp-header {
-        font-family: "Lato", sans-serif;
-        font-size: 200%;
-        text-align: center;
-        background-color: #333;
-        color: #fafafa;
-        padding: 40px;
-        margin: 0;  
-    }
-
-    .image-section {
-        display: flex;
+        display: none;
     }
 
     .image-section img {
-        width: 10%;
-        padding: 0;
-        border: 0.5px solid #000;
+        display: none;
+    }
+
+    .bp-header {
+        display: none;
     }
 
     /* -------------------- Personal Trainers Section on Member Benefits Page */
@@ -2802,5 +2800,38 @@ select {
         margin-bottom: 25px;
     }
 
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .about-us {
+        height: 500px;
+        width: 100%;
+        background-color: #0c1f34;
+    }
+    
+    .about-us h2 {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        color: #fafafa;
+        text-align: center;
+        padding: 40px 40px 10px 40px;
+    }
+    
+    .content {
+        height: 325px;
+        width: 300px;
+        background-color: #fafafa;
+        margin: 30px auto;
+    }
+    
+    .content h4 {
+        color: #333;
+        text-align: center;
+        margin: 0;
+        padding-top: 18px;
+        font-size: 70%;
+    }
 
 }
