@@ -772,7 +772,7 @@ footer div {
     color: #fafafa;
     background-color: #333;
     padding: 40px;
-    margin: 0;
+    margin-top: 30px;
 }
 
 .we-offer {
@@ -782,25 +782,22 @@ footer div {
 
 .offer-flex {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     align-items: center;  
     background-color: #fafafa;
-    margin: auto;
-    margin: 0;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Strength Machines Section */
 
 .strength-machines {
     font-family: "Lato", sans-serif;
-    height: 250px;
+    height: 375px;
     width: 100%;
     padding: 20px;
     background-color: #0c1f34;
     text-align: center;
-    margin-left: auto;
-    margin: 10px auto;
+    margin: 50px auto;
 }
 
 .strength-heading {
@@ -810,24 +807,26 @@ footer div {
 
 .strength-text {
     color: #fafafa;
-    column-count: 2;
     margin-top: 30px;
 }
 
-.strength-text h6 {
-    font-size: 12px;
+.strength-text ul {
+    list-style-type: none;
+}
+
+.strength-text li {
+    font-size: 15px;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Weights Section */
 
 .weights {
     font-family: "Lato", sans-serif;
-    height: 250px;
+    height: 375px;
     width: 100%;
     padding: 20px;
     background-color: #0c1f34;
     text-align: center;
-    margin-right: auto;
 }
 
 .weights-heading {
@@ -837,27 +836,26 @@ footer div {
 
 .weights-text {
     color: #fafafa;
-    column-count: 2;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-.weights-text h6 {
-    font-size: 12px;
-    top: 50%;
-    left: 50%;
+.weights-text ul {
+    list-style-type: none;
+}
+
+.weights-text li {
+    font-size: 17px;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Cardio Machines Section */
 
 .cardio-machines {
     font-family: "Lato", sans-serif;
-    height: 250px;
+    height: 375px;
     width: 100%;
     padding: 20px;
     background-color: #0c1f34;
     text-align: center;
-    margin-left: auto;
-    margin: 10px auto;
 }
 
 .cardio-heading {
@@ -867,27 +865,26 @@ footer div {
 
 .cardio-text {
     color: #fafafa;
-    column-count: 2;
     margin-top: 30px;
 }
 
-.cardio-text h6 {
-    font-size: 12px;
-    top: 50%;
-    left: 50%;
+.cardio-text ul {
+    list-style-type: none;
+}
+
+.cardio-text li {
+    font-size: 15px;
 }
 
 /* -------------------- Why BP Fitness Has To Offer Gym Facilities Section */
 
 .gym-facilities {
     font-family: "Lato", sans-serif;
-    height: 250px;
+    height: 375px;
     width: 100%;
     padding: 20px;
     background-color: #0c1f34;
     text-align: center;
-    margin-right: auto;
-    margin: 10px auto;
 }
 
 .gym-heading {
@@ -897,12 +894,15 @@ footer div {
 
 .gym-text {
     color: #fafafa;
-    column-count: 2;
     margin-top: 30px;
 }
 
-.gym-text h6 {
-    font-size: 12px;
+.gym-text ul {
+    list-style-type: none;
+}
+
+.gym-text li {
+    font-size: 15px;
 }
 
 /* -------------------- Inside BP Fitness Section */
@@ -1078,7 +1078,7 @@ footer div {
 
 .member-text h2 {
     font-family: "Lato", sans-serif;
-    font-size: 36px;
+    font-size: 37px;
     color: #fafafa;
     background-color: #0c1f34;
     text-align: center;
@@ -1593,13 +1593,101 @@ select {
     
     .member-text h2 {
         font-family: "Lato", sans-serif;
-        font-size: 23px;
+        font-size: 24px;
         color: #fafafa;
         background-color: #0c1f34;
         text-align: center;
         padding: 17px;
         margin: 0;
     }
+}
+
+@media screen and (max-width: 1150px) {
+
+    /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
+
+    .strength-machines {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 100%;
+        padding: 20px;
+        background-color: #0c1f34;
+        text-align: center;
+    }
+
+    .strength-heading {
+        font-size: 20px;
+    }
+
+    .strength-text {
+        margin-top: 20px;
+    }
+
+    .strength-machines li {
+        font-size: 12px;
+    }
+
+    .weights {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 100%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .weights-heading {
+        font-size: 20px;
+    }
+
+    .weights-text li {
+        font-size: 12px;
+    }
+
+    .cardio-machines {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 100%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .cardio-heading {
+        font-size: 20px;
+    }
+
+    .cardio-text {
+        margin-top: 20px;
+    }
+
+    .cardio-text li {
+        font-size: 12px;
+    }
+
+    .gym-facilities {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 100%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .gym-text {
+        margin-top: 20px;
+    }
+
+    .gym-heading {
+        font-size: 20px;
+    }
+    
+    .gym-facilities li {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -1921,6 +2009,73 @@ select {
         padding: 20px;
     }
 
+    /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
+
+    .we-offer-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fafafa;
+        background-color: #333;
+        padding: 40px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    
+    .offer-flex {
+        width: 100%;
+        height: 1300px;
+        margin: 0;
+        flex-direction: column;
+        display: flex;
+        align-items: center;  
+        background-color: #fafafa;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .strength-machines {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 50%;
+        padding: 20px;
+        background-color: #0c1f34;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .weights {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .cardio-machines {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .gym-facilities {
+        font-family: "Lato", sans-serif;
+        height: 300px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+    }
+
+
     /* -------------------- Personal Trainers Section On Member Benefits Page */
 
     .personal-trainer-header {
@@ -2106,81 +2261,6 @@ select {
         display: none;
     }
 
-    /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
-
-    .offer-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .we-offer {
-        background-color: #fafafa;
-        height: 500px;
-    }
-
-    .strength-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        padding: 20px;
-        background-color: #0c1f34;
-        text-align: center;
-        margin: 10px auto;
-        margin-top: 20px;
-    }
-
-    .strength-machines h6 {
-        font-size: 10px;
-    }
-
-    .weights {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-    }
-
-    .weights-heading {
-        margin-bottom: 10px;
-    }
-
-    .cardio-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-        margin-top: 60px;
-    }
-
-    .cardio-heading {
-        margin-bottom: 10px;
-    }
-
-    .cardio-text h6 {
-        font-size: 12px;
-    }
-
-    .gym-facilities {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-    }
-    
-    .gym-facilities h6 {
-        font-size: 12px;
-    }
-
     /* -------------------- Inside BP Fitness section on About BP Fitness Page */
 
     .bp-header {
@@ -2191,7 +2271,6 @@ select {
         color: #fafafa;
         padding: 40px;
         margin: 0;
-        margin-top: 100px;
     }
 
     .image-section {
@@ -2494,61 +2573,6 @@ select {
         padding: 20px;
     }
 
-    /* -------------------- What BP Fitness Has To Offer on About BP Fitness Page */
-
-    .offer-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .we-offer {
-        background-color: #fafafa;
-        height: 500px;
-    }
-
-    .strength-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        padding: 20px;
-        background-color: #0c1f34;
-        text-align: center;
-        margin: 10px auto;
-        margin-top: 20px;
-    }
-
-    .weights {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-    }
-
-    .cardio-machines {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-        margin-top: 60px;
-    }
-
-    .gym-facilities {
-        font-family: "Lato", sans-serif;
-        height: 250px;
-        width: 75%;
-        background-color: #0c1f34;
-        padding: 20px;
-        text-align: center;
-        margin: 10px auto;
-    }
-
     /* -------------------- Member Testimonial Section on Home Page/ About BP Fitness Page */
 
     .testimonial-header {
@@ -2559,7 +2583,6 @@ select {
         background-color: #fafafa;
         padding: 40px;
         margin: 0;
-        margin-top: 80px;
     }
 
     .testimonial-section {
@@ -2800,6 +2823,94 @@ select {
         margin-bottom: 25px;
     }
 
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .we-offer-header {
+        font-family: "Lato", sans-serif;
+        font-size: 200%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fafafa;
+        background-color: #333;
+        padding: 40px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    
+    .offer-flex {
+        width: 100%;
+        height: 1275px;
+        margin: 0;
+        flex-direction: column;
+        display: flex;
+        align-items: center;  
+        background-color: #fafafa;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .strength-machines {
+        font-family: "Lato", sans-serif;
+        height: 325px;
+        width: 50%;
+        padding: 20px;
+        background-color: #0c1f34;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .strength-heading {
+        font-size: 15px;
+    }
+
+    .strength-text {
+        font-size: 10px;
+    }
+
+    .weights {
+        font-family: "Lato", sans-serif;
+        height: 275px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .weights-heading {
+        font-size: 15px;
+    }
+
+    .cardio-machines {
+        font-family: "Lato", sans-serif;
+        height: 325px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .cardio-heading {
+        font-size: 15px;
+    }
+
+    .gym-facilities {
+        font-family: "Lato", sans-serif;
+        height: 275px;
+        width: 50%;
+        background-color: #0c1f34;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .gym-heading {
+        font-size: 15px;
+    }
 
 }
 

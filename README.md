@@ -2,8 +2,6 @@
 
 ## User-Centric Frontend Development Milestone Project
 
-
-
 # UX
 
 ### Project Goals
@@ -55,6 +53,8 @@ The primary goal for BP Fitness is to provide an easy to navigate, friendly and 
 
 Wireframes here
 
+## Assets
+
 #### Colors
 
 The main colors used in my project were:
@@ -73,12 +73,11 @@ The main font used throughout my project was Lato and my backup font used was Sa
 
 The images I used in my project were from {https://stock.adobe.com/}, {https://www.pexels.com/} & {https://pixabay.com/}
 
-
 # Features
 
 The BP Fitness website consists of five pages altogether. There are four main accessible pages from the navigation menu and there is also a form submission confirmation page for the form on the Contact Us Page.
 
-# The BP Fitness website has the following features:
+## The BP Fitness website has the following features:
 
 ## Navigation Bar
 
