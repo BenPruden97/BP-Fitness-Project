@@ -208,7 +208,6 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 ### As A Business Owner
 
 1. I would like to present my BP Fitness website to potential customers who are looking for a new gym or personal training sessions.
-<<<<<<< HEAD
 * I have created a well navigatable website with a lot of information, images and content to provide customers information regarding BP Fitness.
 
 2. I would like potential customers to be able to contact us if they are interested in a new membership, personal training sessions, classes and general questions that may have.
@@ -238,35 +237,10 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 
 6. I would like to see what gym classes are available to me.
 * Members can find what gym classes are available each week on the member Benefits Page and weekly gym classes section.
-=======
-1. I have created a well navigatable website with a lot of information, images and content to provide customers information regarding BP Fitness.
-2. I would like potential customers to be able to contact us if they are interested in a new membership, personal training sessions, classes and general questions that may have.
-2. I have a contact form that customers can use to fill out any problems or questions that they may have and can find this form on the contact page.
-3. I want to build relationships with current and new customers so they will stay with BP Fitness.
-3. By offering great membership prices for customers but also students as well as all of the member benefits that are included within the membership to build relationships with our members
-4. I would like my website to be responsive, well designed and easy to navigate around for new and current customers to find the information they are looking for easily.
-4. My website is navigatable from every page of the website and always at the top of the page for easy access. when the size of the screen is reduced to 768px the navigation links are removed and replaced with a burger menu icon to make navigation betweens pages a lot easier on smaller screen sizes.
-
-### As A New Member 
-
-1. I would like to purchase a gym membership or personal training sessions.
-1. To purchase a gym membership or personal training session, customers are able to contact us using the contact form.
-2. I would like a contact form and company details to find out more information about membership prices, personal training sessions, weekly classes, gym equipment and general  questions/ company information.
-2. The contact form is on the contact us page where customers or members can ask any questions/ queiries or problems they are having and can find all of the company details in the footer at the bottom of each page.
-3. I need to see a map of where the gym is located.
-3. There is a interactive map customers can use to find where we are located on the About BP Fitness page.
-4. I would like the site to be easy to use so I can find out what I am looking for without any trouble.
-4. The website is made up of 4 main pages where all relevant information can be found as well as company contact details and a contact form to get in touch.
-5. I would like to see what personal trainers are available to me.
-5. Members can find out what personal trainers are available to them on the Member Benefits page and the Personal Trainers section.
-6. I would like to see what gym classes are available to me.
-6. Members can find what gym classes are available each week on the member Benefits Page and weekly gym classes section.
->>>>>>> 3149d602572aea5e6781658ac9c4fb75c7ce7790
 
 ### As A Returning Member
 
 1. I would like to contact BP fitness to cancel my membership or book more personal training sessions.
-<<<<<<< HEAD
 * Members can cancel their memberships or can book more personal training sessions through the contact form on the contact us page.
 
 2. I would like to check what classes are available.
@@ -280,20 +254,3 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 ### Horizontal scrolling bar at the bottom of my website
 
 To fix this I created two classes in my style.css file. The first class I created was for .row and I gave that the elements of margin-right and margin-left the value of 0. The second class I created was for .container-fluid and I gave this the elements of padding-right and padding left the value of 0.
-=======
-1. Members can cancel their memberships or can book more personal training sessions through the contact form on the contact us page.
-2. I would like to check what classes are available.
-2. Members are able to check the weekly gym class table for updates on the next set of classes.
-3. To find out if there are any membership rewards/ offers.
-3. Membership offers/ rewards can be found on the home or about bp fitness page with the relevant information regarding pricing and time limit.
-
-# Issues I have found during the development of my website
-
-
-
-## Horizontal scrolling bar at the bottom of my website
-
-To fix this I created two classes in my style.css file.
-The first class I created was for .row and I gave that the elements of margin-right and margin-left the value of 0.
-The second class I created was for .container-fluid and I gave this the elements of padding-right and padding left the value of 0.
->>>>>>> 3149d602572aea5e6781658ac9c4fb75c7ce7790
