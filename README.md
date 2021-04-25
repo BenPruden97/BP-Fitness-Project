@@ -253,4 +253,60 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 
 ### Horizontal scrolling bar at the bottom of my website
 
-To fix this I created two classes in my style.css file. The first class I created was for .row and I gave that the elements of margin-right and margin-left the value of 0. The second class I created was for .container-fluid and I gave this the elements of padding-right and padding left the value of 0.
+![Horizontal scrolling bar issue with my website](../assets/project-issue.png)
+
+To fix this I created two classes in my style.css file. 
+
+1. The first class I created was for .row and I gave that the elements of margin-right and margin-left the value of 0.
+2. The second class I created was for .container-fluid and I gave this the elements of padding-right and padding left the value of 0.
+
+### Burger Menu was not clickable on all pages except the home page
+
+![Horizontal scrolling bar issue with my website](../assets/project-issue-2.png)
+
+To fix this I
+
+# Performance Testing
+
+I used the ![Lighthouse tool](https://developers.google.com/web/tools/lighthouse) to test the performance of my website pages.
+
+### Home Page Performance
+
+![Home page performance using lighthouse tool on chrome developer tools](../assets/home-page-performance.png)
+
+### About-BP-Fitness Page Performance
+
+![About BP Fitness page performance using lighthouse tool on chrome developer tools](../assets/about-bp-fitness-performance.png)
+
+### Member Benefits Page Performance
+
+![Member Benefits page performance using lighthouse tool on chrome developer tools](../assets/member-benefits-performance.png)
+
+### Contact Us Page Performance
+
+![Contact Us page performance using lighthouse tool on chrome developer tools](../assets/contact-us-performance.png)
+
+# Code Validation
+
+At the end of building my website, I found these two websites to validate my code
+
+* I used (https://jigsaw.w3.org/css-validator/) to check the validation of my CSS code.
+* I used (https://validator.w3.org/) to check the validation of my HTML code.
+
+By checking the validation of my code using these two websites, I found a lot of small errors that I was able to change within my code that was incorrect.
+
+One example was the incorrect code I had for comments within my code.
+
+I had written my comments like this <! ----- content ----- !> and the code validator told me this was a warning
+
+![Code validator warning for comments](../assets/project-issue-3.png)
+
+I then edited all of my comments to the correct style of <! ----- content ----->
+
+# Deployment of my Website
+
+
+
+# Credits
+
+# Screenshots
