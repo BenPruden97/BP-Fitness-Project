@@ -81,7 +81,7 @@ The main font used throughout my project was Lato and my backup font used was Sa
 
 ### Images
 
-The images I used in my project were from [Adobe Stock](https://stock.adobe.com/), [Pexels](https://www.pexels.com/) & [Pixabay](https://pixabay.com/)
+The images I used in my project were from [Adobe Stock](https://stock.adobe.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) & [Unsplash](https://unsplash.com/)
 
 # Features
 
@@ -380,21 +380,44 @@ The images used within my website came from three websites:
 
 [Pexels](https://www.pexels.com/)
 
-*
-*
-*
+* [Personal training sessions image](https://www.pexels.com/photo/action-active-adult-body-416754/)
+* [Contact us page hero image](https://www.pexels.com/photo/man-resting-his-hands-on-hanged-barbell-1480530/) 
 
 [Pixabay](https://pixabay.com/)
 
-*
-*
-*
+* [Home page hero image](https://pixabay.com/photos/training-press-legs-workout-828760/)
+* [Member Benefits top image](https://www.pexels.com/photo/man-in-black-pants-and-black-tank-top-standing-on-brown-wooden-floor-4752861/)
 
 [Abode Stock](https://stock.adobe.com/uk/)
 
-*
-*
-*
+* [Student Membership offer image](https://stock.adobe.com/uk/images/university-students-in-cooperation-with-their-assignment/376858591)
+* [Membership Offer image](https://stock.adobe.com/uk/images/gym-interior-background-of-dumbbells-on-rack-in-fitness-and-workout-room/301872247)
+* [Personal Trainer number 1 image](https://stock.adobe.com/uk/images/personal-trainer-helping-woman-at-gym/59686684)
+* [Personal Trainer number 2 image](https://stock.adobe.com/uk/images/yoga-teacher-is-helping-young-woman-to-make-asana-poses-at-gym/199279037)
+* [Personal Trainer number 3 image](https://stock.adobe.com/uk/images/doing-squat-exercise-confident-young-personal-trainer-is-showing-slim-athletic-woman-how-to-do-squats-with-trx-fitness-straps-while-training-at-gym/279742809)
+* [Personal Trainer number 4 image](https://stock.adobe.com/uk/images/fitness-young-woman-doing-push-ups-with-assistance-of-her-female-personal-trainer-outdoors/333543270)
+* [Personal Trainer number 5 image](https://stock.adobe.com/uk/images/workout/25900868)
+* [Personal Trainer number 6 image](https://stock.adobe.com/uk/images/female-personal-trainer-using-timer-while-sportsman-doing-exercises-with-barbell-disc-at-gym/203864259)
+* [Workout Plan image](https://stock.adobe.com/uk/images/interior-background-of-room-in-gym-or-fitness-center-fully-equip-of-bodybuilding-equipments-and-machines/303448274)
+* [Diet Plan image](https://stock.adobe.com/uk/images/balanced-diet-food-background/216484492) 
+
+[Unsplash](https://unsplash.com/)
+
+* [Gym Classes image](https://unsplash.com/photos/YJdCZba0TYE)
+* [Workout & Dietary Plans image](https://unsplash.com/photos/f2rbmtkCnAI)
+* [Member Testimonial number 1 image](https://unsplash.com/photos/iFgRcqHznqg)
+* [Member Testimonial number 2 image](https://unsplash.com/photos/mEZ3PoFGs_k)
+* [Member Testimonial number 3 image](https://unsplash.com/photos/LWkFHEGpleE)
+* [Inside BP Fitness image number 1](https://unsplash.com/photos/CQfNt66ttZM)
+* [Inside BP Fitness image number 2](https://unsplash.com/photos/SGRfzXSyRDw)
+* [Inside BP Fitness image number 3](https://unsplash.com/photos/3RnkZpDqsEI)
+* [Inside BP Fitness image number 4](https://unsplash.com/photos/R0y_bEUjiOM)
+* [Inside BP Fitness image number 5](https://unsplash.com/photos/20jX9b35r_M)
+* [Inside BP Fitness image number 6](https://unsplash.com/photos/Oo-rHghLNhA)
+* [Inside BP Fitness image number 7](https://unsplash.com/photos/PxHxbYTpALI)
+* [Inside BP Fitness image number 8](https://unsplash.com/photos/RrCvrrYtlqQ)
+* [Inside BP Fitness image number 9](https://unsplash.com/photos/vOZP2LojrHI)
+* [Inside BP Fitness image number 10](https://unsplash.com/photos/y0SMHt74yqc)
 
 # Screenshots from my Website
 
