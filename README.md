@@ -2,7 +2,9 @@
 
 ## User-Centric Frontend Development Milestone Project
 
-## View my live website here {https://benpruden97.github.io/BP-Fitness-Project/}
+## [View my live website here](https://benpruden97.github.io/BP-Fitness-Project/)
+
+![View of my home page for all device types including mobile, tablet, laptop & desktop](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/website-devices-screenshot.png)
 
 # UX
 
@@ -53,7 +55,13 @@ The primary goal for BP Fitness is to provide an easy to navigate, friendly and 
 
 ### WireFrames
 
-Wireframes here
+Home Page and About BP Fitness Page Wireframes for Desktop & Mobile devices
+
+![Wireframes for my home page and about bp fitness page for desktop & mobile devices](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-about-bp-fitness-wireframes.png)
+
+Member Benefits and Contact Us Page Wireframes for Desktop & Mobile devices
+
+![Wireframes for my member benefits and contact us page for desktop & mobile devices](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-contact-us-wireframes.png)
 
 ## Assets
 
@@ -377,10 +385,34 @@ The images used within my website came from three websites:
 
 ### Home Page
 
+![First screenshot from my home page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page.png)
+
+![Second screenshot from my home page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-2.png)
+
+![Third screenshot from my home page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-3.png)
+
 ### About BP Fitness Page
+
+![First screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page.png)
+
+![Second screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page-1.png)
+
+![Third screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page-2.png)
+
+![Fourth screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page-3.png)
 
 ### Member Benefits Page
 
+![First screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page.png)
+
+![Second screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page-1.png)
+
+![Third screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page-2.png)
+
+![Fourth screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page-3.png)
+
 ### Contact Us Page
+
+![First screenshot from my contact us page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/contact-us-page.png)
 
 
