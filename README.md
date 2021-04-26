@@ -253,7 +253,7 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 
 ### Horizontal scrolling bar at the bottom of my website
 
-![Horizontal scrolling bar issue with my website](../assets/project-issue.png)
+![Horizontal scrolling bar issue with my website](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue.png)
 
 To fix this I created two classes in my style.css file. 
 
@@ -262,7 +262,7 @@ To fix this I created two classes in my style.css file.
 
 ### Burger Menu was not clickable on all pages except the home page
 
-![Horizontal scrolling bar issue with my website](../assets/project-issue-2.png)
+![Horizontal scrolling bar issue with my website](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue-2.png)
 
 To fix this I
 
@@ -272,19 +272,19 @@ I used the ![Lighthouse tool](https://developers.google.com/web/tools/lighthouse
 
 ### Home Page Performance
 
-![Home page performance using lighthouse tool on chrome developer tools](../assets/home-page-performance.png)
+![Home page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-perfomance.png)
 
 ### About-BP-Fitness Page Performance
 
-![About BP Fitness page performance using lighthouse tool on chrome developer tools](../assets/about-bp-fitness-performance.png)
+![About BP Fitness page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-performance.png)
 
 ### Member Benefits Page Performance
 
-![Member Benefits page performance using lighthouse tool on chrome developer tools](../assets/member-benefits-performance.png)
+![Member Benefits page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-performance.png)
 
 ### Contact Us Page Performance
 
-![Contact Us page performance using lighthouse tool on chrome developer tools](../assets/contact-us-performance.png)
+![Contact Us page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/contact-us-performance.png)
 
 # Code Validation
 
@@ -299,7 +299,7 @@ One example was the incorrect code I had for comments within my code.
 
 I had written my comments like this <! ----- content ----- !> and the code validator told me this was a warning
 
-![Code validator warning for comments](../assets/project-issue-3.png)
+![Code validator warning for comments](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue-3.png)
 
 I then edited all of my comments to the correct style of <! ----- content ----->
 
