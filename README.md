@@ -357,12 +357,12 @@ I used many websites if I was stuck or confused. These websites were:
 
 ### Coding I used from external websites
 
-Bootstrap: ![Bootstrap Jumbotron Menu](https://getbootstrap.com/docs/4.5/components/jumbotron/)
-Bootstrap: ![Bootstrap Burger Menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
+Bootstrap: [Bootstrap Jumbotron Menu](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+Bootstrap: [Bootstrap Burger Menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
 
 ### Google Maps
 
-I used Code Institute for the location of my Google Map: ![Code Institute](https://codeinstitute.net/)
+I used Code Institute for the location of my Google Map: [Code Institute](https://codeinstitute.net/)
 
 Google Map Location: [Code Institute Google Map Location](https://www.google.com/maps/place/Code+Institute/@53.2981994,-6.1786572,15z/data=!4m5!3m4!1s0x0:0x7ff7202fe3dea603!8m2!3d53.2981994!4d-6.1786572)
 
