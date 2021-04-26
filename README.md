@@ -81,7 +81,7 @@ The main font used throughout my project was Lato and my backup font used was Sa
 
 ### Images
 
-The images I used in my project were from {https://stock.adobe.com/}, {https://www.pexels.com/} & {https://pixabay.com/}
+The images I used in my project were from [Adobe Stock](https://stock.adobe.com/), [Pexels](https://www.pexels.com/) & [Pixabay](https://pixabay.com/)
 
 # Features
 
@@ -276,7 +276,7 @@ To fix this I
 
 # Performance Testing
 
-I used the ![Lighthouse tool](https://developers.google.com/web/tools/lighthouse) to test the performance of my website pages.
+I used the [Lighthouse tool](https://developers.google.com/web/tools/lighthouse) to test the performance of my website pages.
 
 ### Home Page Performance
 
@@ -298,8 +298,8 @@ I used the ![Lighthouse tool](https://developers.google.com/web/tools/lighthouse
 
 At the end of building my website, I found these two websites to validate my code
 
-* I used (https://jigsaw.w3.org/css-validator/) to check the validation of my CSS code.
-* I used (https://validator.w3.org/) to check the validation of my HTML code.
+* I used [CSS Validator](https://jigsaw.w3.org/css-validator/) to check the validation of my CSS code.
+* I used [HTML validator](https://validator.w3.org/) to check the validation of my HTML code.
 
 By checking the validation of my code using these two websites, I found a lot of small errors that I was able to change within my code that was incorrect.
 
@@ -313,32 +313,47 @@ I then edited all of my comments to the correct style of <! ----- content ----->
 
 # Deployment of my Website
 
+My project was deployed using GitHub pages and I used GitPod as my development hosting platform. I used the git commands to commit all of the changes I made to my project with an updated message of what changes/ improvements I have made. I then used the git push command to push my changes through to my GitHub pages.
 
+### To develop my website using GitHub pages
+
+* Log into my GitHub account and find my site repository.
+* Select Settings on the far right and find the GitHub Pages section.
+* Find the source section and set thhe branch to master the folder to the right to /root. 
+* click save and page was deployed after auto-refresh.
+
+![My site is published as this url](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/my-site-is-published-as.png)
+
+### To run my website locally
+
+* Log into my GitHub account and find my site repository.
+* Find the code dropdown tab and select Download ZIP.
+* After the download is complete, you can use these files in your local environment.
 
 # Credits
 
 ### Template Used
 
-I used the Code Insitiute Student Template to complete my website project: ![Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
+I used the Code Insitiute Student Template to complete my website project: [Gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ### Ideas for my website project
 
 I used a lot of gym websites for ideas and motivation. The four main websites I looked at were:
 
-1. ![The Gym Group](https://www.thegymgroup.com/)
-2. ![Pure Gym](https://www.puregym.com/)
-3. ![Anytime Fitness](https://www.anytimefitness.co.uk/)
-4. ![Better Gym](https://www.better.org.uk/)
+1. [The Gym Group](https://www.thegymgroup.com/)
+2. [Pure Gym](https://www.puregym.com/)
+3. [Anytime Fitness](https://www.anytimefitness.co.uk/)
+4. [Better Gym](https://www.better.org.uk/)
 
 ### Websites I used for help or tutorials
 
 I used many websites if I was stuck or confused. These websites were:
 
-1. ![YouTube](https://www.youtube.com/)
-2. ![Boostrap](https://getbootstrap.com/)
-3. ![W3Schools](https://www.w3schools.com/)
-4. ![CSS Tricks](https://css-tricks.com/)
-5. ![Developer Mozilla](https://developer.mozilla.org/en-US/)
+1. [YouTube](https://www.youtube.com/)
+2. [Boostrap](https://getbootstrap.com/)
+3. [W3Schools](https://www.w3schools.com/)
+4. [CSS Tricks](https://css-tricks.com/)
+5. [Developer Mozilla](https://developer.mozilla.org/en-US/)
 
 ### Coding I used from external websites
 
@@ -349,13 +364,13 @@ Bootstrap: ![Bootstrap Burger Menu](https://getbootstrap.com/docs/4.5/components
 
 I used Code Institute for the location of my Google Map: ![Code Institute](https://codeinstitute.net/)
 
-Google Map Location: ![Code Institute Google Map Location](https://www.google.com/maps/place/Code+Institute/@53.2981994,-6.1786572,15z/data=!4m5!3m4!1s0x0:0x7ff7202fe3dea603!8m2!3d53.2981994!4d-6.1786572)
+Google Map Location: [Code Institute Google Map Location](https://www.google.com/maps/place/Code+Institute/@53.2981994,-6.1786572,15z/data=!4m5!3m4!1s0x0:0x7ff7202fe3dea603!8m2!3d53.2981994!4d-6.1786572)
 
 ### Contact Form
 
 The contact form I used for my Contact Us page was taken from the Love Running project in the CSS Essentials/ Love Running section.
 
-Contact form: ![Love Running Project Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
+Contact form: [Love Running Project Form](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
 I changed the color/ form to match my website requirements.
 
@@ -363,19 +378,19 @@ I changed the color/ form to match my website requirements.
 
 The images used within my website came from three websites:
 
-![Pexels](https://www.pexels.com/)
+[Pexels](https://www.pexels.com/)
 
 *
 *
 *
 
-![Pixabay](https://pixabay.com/)
+[Pixabay](https://pixabay.com/)
 
 *
 *
 *
 
-![Abode Stock](https://stock.adobe.com/uk/)
+[Abode Stock](https://stock.adobe.com/uk/)
 
 *
 *
