@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>BP Fitness</title>
     <script src="https://kit.fontawesome.com/e8142a821e.js" crossorigin="anonymous"></script>
@@ -73,8 +76,8 @@
               <input class="last-text" type="text" id="lname" name="last_name" required><br>
               <label for="email">Email Address</label>
               <input class="email-text" type="email" id="email" name="email_address" required><br>
-              <label for="message">Type Your Message Here</label>
-              <input class="message-text" type="text" id="message" name="message"><br>
+              <label for="message">Type Your Message Here</label><br>
+              <textarea class="message-text" id="message" rows="5" cols="20"></textarea><br>
               <label for="reason-for-contacting-us" class="select-text">Reason For Contacting Us:</label><br>
               <select name ="reason-for-contacting-us" id="reason-for-contacting-us">
                 <option value="membership-details">Membership Details</option>
