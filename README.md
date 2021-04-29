@@ -10,7 +10,7 @@
 
 * [UX Section](#ux)
    * [Project Goals](#project-goals)
-   * [User Goals](###user-goals)
+   * [User Goals](#user-goals)
     * [New User Goals](#new-user-goals)
     * [Returning User Goals](#returning-user-goals)
    * [User Stories](#user-stories)  
