@@ -6,6 +6,55 @@
 
 ![View of my home page for all device types including mobile, tablet, laptop & desktop](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/website-devices-screenshot.png)
 
+# Table of Contents
+
+* [UX Section](#ux)
+   * [Project Goals](#project-goals)
+   * [User Goals](###user-goals)
+      * [New User Goals](#new-user-goals)
+      * [Returning User Goals](#returning-user-goals)
+   * [User Stories](#user-stories)  
+      * [As a Business Owner](#as-a-business-owner) 
+      * [As a New Member](#as-a-new-member)
+      * [As a Returning Member](#as-a-returning-member)
+* [Wireframes](#wireframes)
+* [Assets](#assets)
+   * [Colors](#colors)
+   * [Fonts](#fonts)
+   * [Images](#images)
+* [Features](#features)
+   * [Navigation Bar](#navigation-bar)
+      * [Navigation Bar Elements](#navigation-bar-elements)
+   * [Footer](#footer)
+   * [Home Page](#home-page)
+   * [About BP Fitness Page](#about-bp-fitness-page)
+   * [Member Benefits Page](#member-benefits-page)
+   * [Contact Us Page](#contact-us-page)
+   * [Future Implementations](#future-implementations)
+* [Technologies used for my website](#technologies-used-for-my-website)
+* [Testing the functionality](#testing-the-functionality)
+* [Testing the compatability](#testing-the-compatability)
+* [User Stories Testing](#user-stories-testing)
+   * [As a Business Owner Testing](#as-a-business-owner-testing)
+   * [As a New Member Testing](#as-a-new-member-testing)
+   * [As a Returning Member Testing](#as-a-returning-member-testing)
+* [Issues found during the development of my website](#issues-i-have-found-during-the-development-of-my-website)
+   * [Horizontal Scrolling Bar Issue](#horizontal-scrolling-bar-at-the-bottomn-of-my-website)
+   * [Burger Menu Issue](#burger-menu-was-not-clickable-on-all-pages-except-the-home-page)
+* [Performance Testing](#performance-testing)
+   * [Home Page Performance](#home-page-performance)
+   * [AboutBP Fitness Page Performance](#about-bp-fitness-page-performance)
+   * [Member Benefits Page Performance](#member-benefits-page-performance)
+   * [Contact Us Page Performance](#contact-us-page-performance)
+* [Code Validation](#code-validation)
+* [Deployment of my Website](#deploment-of-my-website)
+* [Credits](#credits)
+* [Screenshots from my Website](#screenshots-from-my-website)
+   * [Home Page Screenshots](#home-page-screenshots)
+   * [About BP Fitness Page Screenshots](#about-bp-fitness-page-screenshots)
+   * [Member Benefits Page Screenshots](#member-benefits-page-screenshots)
+   * [Contact Us Page Screenshots](#contact-us-page-screenshot)
+
 # UX
 
 ### Project Goals
@@ -53,7 +102,9 @@ The primary goal for BP Fitness is to provide an easy to navigate, friendly and 
 2. I would like to check what classes are available.
 3. To need to find out if there are any membership rewards/ offers.
 
-### WireFrames
+[Back to Table of Contents](#table-of-contents)
+
+# WireFrames
 
 Home Page and About BP Fitness Page Wireframes for Desktop & Mobile devices
 
@@ -62,6 +113,8 @@ Home Page and About BP Fitness Page Wireframes for Desktop & Mobile devices
 Member Benefits and Contact Us Page Wireframes for Desktop & Mobile devices
 
 ![Wireframes for my member benefits and contact us page for desktop & mobile devices](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-contact-us-wireframes.png)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Assets
 
@@ -82,6 +135,8 @@ The main font used throughout my project was Lato and my backup font used was Sa
 ### Images
 
 The images I used in my project were from [Adobe Stock](https://stock.adobe.com/), [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) & [Unsplash](https://unsplash.com/)
+
+[Back to Table of Contents](#table-of-contents)
 
 # Features
 
@@ -136,7 +191,7 @@ The layout of the About BP Fitness Page is:
 * You can find us here
 * Footer
 
-## Member Benefits
+## Member Benefits Page
 
 The layout of the Member Benefits Page is:
 
@@ -161,7 +216,9 @@ The layout of the Contact Us is:
 * Add a login section for members.
 * Create a new section for Personal Trainers to make it easier for clients/ new members to contact them and find out more information about them.
 
-# Technologies Used for my BP Fitness Project
+[Back to Table of Contents](#table-of-contents)
+
+# Technologies Used for my website
 
 ### HTML5
 
@@ -203,17 +260,19 @@ I used git as a version-control system tracker for my project.
 
 I used GitPod as my Development Hosting Platform for my project
 
-# Testing the functionality of my website
+[Back to Table of Contents](#table-of-contents)
+
+# Testing the Functionality
 
 While building my website I found Chrome Developer Tools the best tool throughtout my project to help view my website as well as to find any issues within my coding and solve any problems that arose. 
 
-# Testing the Compatability of my website
+# Testing the Compatability
 
 Chrome Developer Tools was also great for testing the responsiveness of my website for many devices such as phones, tablets and laptop screen sizes. This allowed me to change many sections within my website without any difficulty and to still keep my website looking professional and still easily navigatable to different screen sizes.
 
-# User stories testing
+# User Stories Testing
 
-### As A Business Owner
+### As A Business Owner Testing
 
 1. I would like to present my BP Fitness website to potential customers who are looking for a new gym or personal training sessions.
 * I have created a well navigatable website with a lot of information, images and content to provide customers information regarding BP Fitness.
@@ -227,7 +286,7 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 4. I would like my website to be responsive, well designed and easy to navigate around for new and current customers to find the information they are looking for easily.
 * My website is navigatable from every page of the website and always at the top of the page for easy access. when the size of the screen is reduced to 768px the navigation links are removed and replaced with a burger menu icon to make navigation betweens pages a lot easier on smaller screen sizes.
 
-### As A New Member.
+### As A New Member Testing
 
 1. I would like to purchase a gym membership or personal training sessions.
 * To purchase a gym membership or personal training session, customers are able to contact us using the contact form.
@@ -246,7 +305,7 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 6. I would like to see what gym classes are available to me.
 * Members can find what gym classes are available each week on the member Benefits Page and weekly gym classes section.
 
-### As A Returning Member
+### As A Returning Member Testing
 
 1. I would like to contact BP fitness to cancel my membership or book more personal training sessions.
 * Members can cancel their memberships or can book more personal training sessions through the contact form on the contact us page.
@@ -256,6 +315,8 @@ Chrome Developer Tools was also great for testing the responsiveness of my websi
 
 3. To find out if there are any membership rewards/ offers.
 * Membership offers/ rewards can be found on the home or about bp fitness page with the relevant information regarding pricing and time limit.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Issues I have found during the development of my website
 
@@ -272,7 +333,9 @@ To fix this I created two classes in my style.css file.
 
 ![Horizontal scrolling bar issue with my website](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue-2.png)
 
-To fix this I
+To fix this I found out that I had missed out the JavaScript code within the style of my web pages within the header. After copying the Javascript code and Bootstrap code from my Home page to my other pages, the web pages worked perfectly and navigated throughout my website.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Performance Testing
 
@@ -282,7 +345,7 @@ I used the [Lighthouse tool](https://developers.google.com/web/tools/lighthouse)
 
 ![Home page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-perfomance.png)
 
-### About-BP-Fitness Page Performance
+### About BP Fitness Page Performance
 
 ![About BP Fitness page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-performance.png)
 
@@ -293,6 +356,8 @@ I used the [Lighthouse tool](https://developers.google.com/web/tools/lighthouse)
 ### Contact Us Page Performance
 
 ![Contact Us page performance using lighthouse tool on chrome developer tools](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/contact-us-performance.png)
+
+[Back to Table of Contents](#table-of-contents)
 
 # Code Validation
 
@@ -310,6 +375,8 @@ I had written my comments like this <! ----- content ----- !> and the code valid
 ![Code validator warning for comments](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue-3.png)
 
 I then edited all of my comments to the correct style of <! ----- content ----->
+
+[Back to Table of Contents](#table-of-contents)
 
 # Deployment of my Website
 
@@ -329,6 +396,8 @@ My project was deployed using GitHub pages and I used GitPod as my development h
 * Log into my GitHub account and find my site repository.
 * Find the code dropdown tab and select Download ZIP.
 * After the download is complete, you can use these files in your local environment.
+
+[Back to Table of Contents](#table-of-contents)
 
 # Credits
 
@@ -419,9 +488,11 @@ The images used within my website came from three websites:
 * [Inside BP Fitness image number 9](https://unsplash.com/photos/vOZP2LojrHI)
 * [Inside BP Fitness image number 10](https://unsplash.com/photos/y0SMHt74yqc)
 
+[Back to Table of Contents](#table-of-contents)
+
 # Screenshots from my Website
 
-### Home Page
+### Home Page Screenshots
 
 ![First screenshot from my home page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page.png)
 
@@ -429,7 +500,7 @@ The images used within my website came from three websites:
 
 ![Third screenshot from my home page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/home-page-3.png)
 
-### About BP Fitness Page
+### About BP Fitness Page Screenshots
 
 ![First screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page.png)
 
@@ -439,7 +510,7 @@ The images used within my website came from three websites:
 
 ![Fourth screenshot from my about bp fitness page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/about-bp-fitness-page-3.png)
 
-### Member Benefits Page
+### Member Benefits Page Screenshots
 
 ![First screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page.png)
 
@@ -449,8 +520,10 @@ The images used within my website came from three websites:
 
 ![Fourth screenshot from my member benefits page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/member-benefits-page-3.png)
 
-### Contact Us Page
+### Contact Us Page Screenshot
 
 ![First screenshot from my contact us page](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/contact-us-page.png)
+
+[Back to Table of Contents](#table-of-contents)
 
 
