@@ -329,11 +329,15 @@ To fix this I created two classes in my style.css file.
 1. The first class I created was for .row and I gave that the elements of margin-right and margin-left the value of 0.
 2. The second class I created was for .container-fluid and I gave this the elements of padding-right and padding left the value of 0.
 
+![Horizontal Scrolling Issue Fixed](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/horizontal-scrolling-fixed.png)
+
 ### Burger Menu was not clickable on all pages except the home page
 
 ![Horizontal scrolling bar issue with my website](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/project-issue-2.png)
 
 To fix this I found out that I had missed out the JavaScript code within the style of my web pages within the header. After copying the Javascript code and Bootstrap code from my Home page to my other pages, the web pages worked perfectly and navigated throughout my website.
+
+![Burger Menu Issues Fixed](https://github.com/BenPruden97/BP-Fitness-Project/blob/master/screenshots/burger-menu-fixed.png)
 
 [Back to Table of Contents](#table-of-contents)
 
